@@ -1,0 +1,19 @@
+{
+  "name": "ibwallet",
+  "version": "1.0.0",
+  "description": "Este proyecto surge como proyecto final del curso en desarrollo web en la academia Coderhouse dictados por el docente Nicolas Seguro y la tutora Camila Muñoz Manríquez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilianopisso/IBwallet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilianopisso/IBwallet/issues"
+  },
+  "homepage": "https://github.com/maximilianopisso/IBwallet#readme"
+}
