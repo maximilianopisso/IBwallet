@@ -15,15 +15,12 @@ header{
       }
 
         ul{
-
             li{
-                
-               
+                         
                 color:$color_head_foot !important;
                 font-weight: bolder;
                 padding: 10px px!important;
-                               
-                
+                                   
                 a{
                     
                   font-weight: 700;
@@ -31,22 +28,20 @@ header{
                   font-size: 1.5rem;
                   padding: 10px 20px!important;
                   margin: 0 10px;
-                  
 
                   &:hover{
                     background-color:lighten($color_head_foot,10%);
                     border-radius: 5px;
-                       
                 }
                 
-                @media only screen and (max-width:1200px){
-                    font-weight: 700;
-                    font-size: 1.3rem;
-                    padding: 5px 10px!important;
-                    margin: 0 5px; 
+                    @media only screen and (max-width:1200px){
+                        font-weight: 700;
+                        font-size: 1.3rem;
+                        padding: 5px 10px!important;
+                        margin: 0 5px; 
+                    
+                    }   
                 }
-
-                }   
 
             }
         }
