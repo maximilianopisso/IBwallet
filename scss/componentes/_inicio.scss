@@ -4,7 +4,11 @@
 
     margin-top: $separacion_sections;
 
-      h1{
+    @media screen and (min-width:0px)and (max-width:510px){
+        margin-top: 7rem;
+    }
+    
+        h1{
             //font-family: nth($tipo_fuente,2);
             font-size: nth($size_fuente,1);
             font-weight: 700;
@@ -21,9 +25,7 @@
             
             }
             @media screen and (max-width:500){
-                font-size: nth($size_fuente,4);
-                
-                
+                font-size: nth($size_fuente,4);  
             }   
             
       }
@@ -64,5 +66,10 @@
        
     }
 
+    
+
+
+    
 
 }
+

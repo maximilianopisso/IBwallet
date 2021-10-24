@@ -56,6 +56,11 @@ header nav ul li a:hover {
 #inicio {
   margin-top: 10rem;
 }
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #inicio {
+    margin-top: 7rem;
+  }
+}
 #inicio h1 {
   font-size: 3.5rem;
   font-weight: 700;
