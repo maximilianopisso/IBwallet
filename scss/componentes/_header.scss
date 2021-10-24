@@ -37,7 +37,8 @@ header{
 
                   &:hover{
                     background-color:lighten($color_head_foot,10%);
-                    border-radius: 5px;
+                    border-radius: 10px;
+                    transition: all 1.3s;
                 }
                     @media screen and (max-width:1200px){
                         font-weight: 700;
