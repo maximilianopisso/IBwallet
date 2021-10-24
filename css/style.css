@@ -1,3 +1,37 @@
-
+header {
+  background-color: #8842c1;
+  width: 100%;
+  order: 99;
+}
+header nav .navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 2%;
+  color: white;
+}
+header nav ul li {
+  color: #8842c1 !important;
+  font-weight: bolder;
+  padding: 10px px !important;
+}
+header nav ul li a {
+  font-weight: 700;
+  color: white !important;
+  font-size: 1.5rem;
+  padding: 10px 20px !important;
+  margin: 0 10px;
+}
+header nav ul li a:hover {
+  background-color: #a068ce;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1200px) {
+  header nav ul li a {
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 5px 10px !important;
+    margin: 0 5px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
