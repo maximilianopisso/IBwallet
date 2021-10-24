@@ -3,6 +3,7 @@
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-image: linear-gradient(180deg, white 10%, #ededed 120%);
 }
 body * {
   margin: 0px;
