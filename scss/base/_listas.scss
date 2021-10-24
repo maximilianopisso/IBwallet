@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Roboto:wght@300;500;700;900&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;500;700;900&display=swap');
 
 
 //LISTAS
+$tipo_fuente:
+'Raleway', sans-serif,
+'Roboto', sans-serif;
 
-$colore-header:
-red,
-green,
-blue,
-black;
+$size_fuente:
+3.5rem,
+3rem,
+2.5rem,
+2rem,
+1.5rem;
 
-
-// .button-ok {
-//     color: nth($colore-header,2)
-// }
