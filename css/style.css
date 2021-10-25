@@ -56,7 +56,8 @@ header nav ul li a:hover {
 }
 
 #inicio {
-  margin-top: 10rem;
+  margin-top: 12.5rem;
+  padding-top: 10rem;
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #inicio {
@@ -116,7 +117,8 @@ header nav ul li a:hover {
 }
 
 #nosotros {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding-top: 10rem;
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #nosotros {
@@ -180,7 +182,8 @@ header nav ul li a:hover {
 }
 
 #servicios {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding-top: 10rem;
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #servicios {
@@ -263,7 +266,7 @@ header nav ul li a:hover {
 }
 
 #contactos {
-  margin-top: 10rem;
+  margin-top: 5rem;
   background-color: #8842c1;
   padding: 10rem;
 }
