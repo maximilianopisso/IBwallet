@@ -1,0 +1,10 @@
+#contactos{
+
+    margin-top: $separacion_sections;
+
+    background-color: $color_head_foot;
+    padding: 10rem;
+    @media screen and (min-width:0px)and (max-width:510px){
+        margin-top: $separacion_sections_sm;
+    }
+}

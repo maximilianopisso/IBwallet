@@ -1,66 +1,6 @@
 
-/* CSS General */
-*{
-    margin:0px;
-    padding:0px; 
-}
-
-
-
-h1{  
-    font-size: 3.5rem;
-    color: #56297a;
-    font-weight: bolder;
-}
-
-h2{
-    font-size: 2.5rem;
-    color: #8842c1;
-}
-p{   
-    font-size: 1.5rem;
-    color: rgb(63, 62, 62);
-}
-
-.slogan{
-    color: #56297a;
-    font-weight: bold;
-}
-
-
-#inicio,#nosotros,#servicios,#ingreso{
-    margin-top: 7rem;
-    
-  
-}
 
 /* CSS HEADER */
-
-.estilos-menu {
-    /* height: 100px; */
-    background-color: #8842c1;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.logo{
-    font-size: 2.5rem;
-}
-
-.nav-link{
-    margin: 0px 5px;
-    padding: 5px 15px !important;
-    color:white !important;
-}
-
-.nav-link:hover{
-    background-color: #a89ebb;
-    color:white !important;
-    transition: all 1s;
-    border-radius: 5px;
-}
-
 
 /* CSS Servicios */
 
@@ -71,6 +11,13 @@ p{
     color: rgb(63, 62, 62);
     font-weight:600;
 }
+
+
+
+
+
+
+
 
 /* CSS Ingreso */
 .fondo{

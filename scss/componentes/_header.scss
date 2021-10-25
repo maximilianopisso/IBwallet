@@ -1,0 +1,57 @@
+
+header{
+    //height: 120px;
+    background-color: $color_head_foot;
+    width: 100%;
+    order:99 ;
+
+    nav{
+
+        .navbar-brand{
+        font-family: nth($tipo_fuente,2); 
+        font-size: 3rem;
+        font-weight: 900;
+        padding-left: 2%;
+        color: $color_text_head_foot;
+        
+        @media only screen and (max-width:1200px){
+            padding-left: 1%;
+            font-size: 2rem;
+        
+        }   
+      }
+
+        ul{
+            li{
+                color:$color_head_foot !important;
+                font-weight: bolder;
+                padding: 10px px!important;
+                                   
+                a{
+                  font-family: nth($tipo_fuente,2);  
+                  font-weight: 700;
+                  color: $color_text_head_foot !important;
+                  font-size: 1.5rem;
+                  padding: 10px 10px!important;
+                  margin: 0 10px;
+
+                  &:hover{
+                    background-color:lighten($color_head_foot,10%);
+                    border-radius: 10px;
+                    transition: all 1.3s;
+                }
+                    @media screen and (max-width:1200px){
+                        font-weight: 700;
+                        font-size: 1.3rem;
+                        padding: 5px 10px!important;
+                        margin: 0 5px; 
+                    
+                    }   
+                }
+
+            }
+        }
+        
+    }
+}
+
