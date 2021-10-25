@@ -1,0 +1,89 @@
+#servicios{
+
+    margin-top: $separacion_sections;
+    
+
+    @media screen and (min-width:0px)and (max-width:510px){
+        margin-top: $separacion_sections_sm;
+    }
+    
+    h2{
+        font-size: nth($size_fuente,3);
+        font-weight: 700;
+        padding: 0rem 0rem 5rem 0rem;
+        color: darken($color_head_foot,20%);
+
+        @media only screen and (max-width:991px){
+            text-align: center;
+        }   
+        
+        @media screen and (min-width:0px)and (max-width:510px){
+            font-size: nth($size_fuente,5);
+            padding: 2rem 0rem;
+            
+        }
+    }
+
+    .servicios-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5rem 0rem;
+        margin-bottom: 5rem;
+
+            @media only screen and (max-width:991px){
+                flex-direction: column;
+                margin-bottom: 3.5rem;
+            } 
+
+        .item-servicios{ 
+            max-width: 350px;
+        
+            @media only screen and (max-width:991px){
+                max-width: 400px;
+                margin-bottom: 3.5rem;
+            } 
+            @media screen and (min-width:0px)and (max-width:510px){
+                max-width: 300px;  
+            }             
+
+            .card{
+                display: flex;
+                border-radius: 10px;             
+                text-align: center;
+                background: darken(white,2.5%);              
+
+                &:hover{
+                    box-shadow: rgba($color_head_foot, 0.5) 0px 10px 20px; 
+                    transition: all 1s;
+                }   
+                img{
+                    padding: 10px 10px 0px 10px ;
+                   // max-height: 90%;
+                    }
+
+            }
+
+        .card-body{
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            height: 150px;
+            
+            .card-text{
+                color: $color_text_normal;;
+                font-size: 22px;
+                font-weight: 500;   
+
+                @media screen and (min-width:0px)and (max-width:510px){
+                    font-size: nth($size_fuente,10);
+                    margin-bottom: 2rem;  
+                } 
+            }
+            
+           }
+        }
+    }
+}
+
+    

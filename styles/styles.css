@@ -1,32 +1,4 @@
 
-/* CSS General */
-*{
-    margin:0px;
-    padding:0px; 
-}
-
-
-
-h1{  
-    font-size: 3.5rem;
-    color: #56297a;
-    font-weight: bolder;
-}
-
-h2{
-    font-size: 2.5rem;
-    color: #8842c1;
-}
-p{   
-    font-size: 1.5rem;
-    color: rgb(63, 62, 62);
-    font-family: Roboto;
-}
-
-
-#inicio,#nosotros,#servicios,#ingreso{
-    margin-top: 7rem;  
-}
 
 /* CSS HEADER */
 
@@ -39,6 +11,13 @@ p{
     color: rgb(63, 62, 62);
     font-weight:600;
 }
+
+
+
+
+
+
+
 
 /* CSS Ingreso */
 .fondo{

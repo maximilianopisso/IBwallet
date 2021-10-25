@@ -179,4 +179,98 @@ header nav ul li a:hover {
   margin: 0px auto;
 }
 
+#servicios {
+  margin-top: 10rem;
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #servicios {
+    margin-top: 7rem;
+  }
+}
+#servicios h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0rem 0rem 5rem 0rem;
+  color: #532776;
+}
+@media only screen and (max-width: 991px) {
+  #servicios h2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #servicios h2 {
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+  }
+}
+#servicios .servicios-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5rem 0rem;
+  margin-bottom: 5rem;
+}
+@media only screen and (max-width: 991px) {
+  #servicios .servicios-container {
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+  }
+}
+#servicios .servicios-container .item-servicios {
+  max-width: 350px;
+}
+@media only screen and (max-width: 991px) {
+  #servicios .servicios-container .item-servicios {
+    max-width: 400px;
+    margin-bottom: 3.5rem;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #servicios .servicios-container .item-servicios {
+    max-width: 300px;
+  }
+}
+#servicios .servicios-container .item-servicios .card {
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  background: #f9f9f9;
+}
+#servicios .servicios-container .item-servicios .card:hover {
+  box-shadow: rgba(136, 66, 193, 0.5) 0px 10px 20px;
+  transition: all 1s;
+}
+#servicios .servicios-container .item-servicios .card img {
+  padding: 10px 10px 0px 10px;
+}
+#servicios .servicios-container .item-servicios .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+#servicios .servicios-container .item-servicios .card-body .card-text {
+  color: #404040;
+  font-size: 22px;
+  font-weight: 500;
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #servicios .servicios-container .item-servicios .card-body .card-text {
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+}
+
+#contactos {
+  margin-top: 10rem;
+  background-color: #8842c1;
+  padding: 10rem;
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #contactos {
+    margin-top: 7rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
