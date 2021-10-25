@@ -28,6 +28,10 @@ header nav .navbar-brand {
     font-size: 2rem;
   }
 }
+header nav #navbarNav {
+  display: flex;
+  justify-content: end;
+}
 header nav ul li {
   color: #8842c1 !important;
   font-weight: bolder;
@@ -61,7 +65,8 @@ header nav ul li a:hover {
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #inicio {
-    margin-top: 7rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
   }
 }
 #inicio h1 {
@@ -83,6 +88,10 @@ header nav ul li a:hover {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
+}
+#inicio .inicio-container {
+  display: flex;
+  align-items: center;
 }
 #inicio .inicio-container .description-container h2 {
   font-size: 2.5rem;
@@ -122,7 +131,8 @@ header nav ul li a:hover {
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #nosotros {
-    margin-top: 7rem;
+    margin-top: 1rem;
+    padding-top: 5rem;
   }
 }
 #nosotros h2 {
@@ -187,7 +197,8 @@ header nav ul li a:hover {
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #servicios {
-    margin-top: 7rem;
+    margin-top: 1rem;
+    padding-top: 5rem;
   }
 }
 #servicios h2 {
@@ -262,6 +273,17 @@ header nav ul li a:hover {
   #servicios .servicios-container .item-servicios .card-body .card-text {
     font-size: 18px;
     margin-bottom: 2rem;
+  }
+}
+
+#ingreso {
+  margin-top: 5rem;
+  padding-top: 10rem;
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #ingreso {
+    margin-top: 1rem;
+    padding-top: 5rem;
   }
 }
 

@@ -22,6 +22,11 @@ header{
         }   
       }
 
+        #navbarNav{
+            display: flex;
+            justify-content: end;
+        }
+    
         ul{
             li{
                 color:$color_head_foot !important;
