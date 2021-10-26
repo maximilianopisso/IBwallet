@@ -46,6 +46,11 @@ header nav ul li a:hover {
   border-radius: 10px;
   transition: all 1.3s;
 }
+@media screen and (max-width: 991px) {
+  header nav ul li a:hover {
+    background-color: #8842c1;
+  }
+}
 @media screen and (max-width: 1200px) {
   header nav ul li a {
     font-weight: 700;
