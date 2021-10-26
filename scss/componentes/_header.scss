@@ -21,7 +21,13 @@ header{
         
         }   
       }
-     
+    //   #navbarNav{
+    //     justify-content: end;
+
+    //      @media only screen and (max-width:991px){
+    //         justify-content: none !important;
+    //     }
+
             ul{
                 li{
                     color:$color_head_foot !important;
@@ -51,8 +57,8 @@ header{
                     }
 
                 }
-            
-        }  
+            }
+        // }  
     }
 }
 
