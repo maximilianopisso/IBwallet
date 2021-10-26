@@ -1,88 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - IBWallet | Realiza todas tus Operaciones</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - IBWallet | Realiza todas tus Operaciones</title>
 
-    <!-- Iconos Redes Sociales -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Para importar iconos redes sociales -->
+  <!-- Iconos Redes Sociales -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Para importar iconos redes sociales -->
 
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
-    <!-- Meta Tags -->
-    <meta name="description" content=" Este es el login de la plataforma IBWallet, un desarrollo de comercio electrónico que permite que los pagos
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Meta Tags -->
+  <meta name="description" content=" Este es el login de la plataforma IBWallet, un desarrollo de comercio electrónico que permite que los pagos
      y transferencias de dinero se hagan a través de Internet.">
 
-     <!-- Open graph -->
-    <meta property="og:title" content="IBWallet | Tu Billetera Digital">
-    <meta property="og:description" content="IBWallet es desarrollo de comercio electrónico que permite que los pagos
+  <!-- Open graph -->
+  <meta property="og:title" content="IBWallet | Tu Billetera Digital">
+  <meta property="og:description" content="IBWallet es desarrollo de comercio electrónico que permite que los pagos
     y transferencias de dinero se hagan a través de Internet">
-    <meta property="og:image" content="https://drive.google.com/file/d/1sX5bawKc768uLxUT6YDzTFMbMv5KtnFk/view?usp=sharing">
+  <meta property="og:image"
+    content="https://drive.google.com/file/d/1sX5bawKc768uLxUT6YDzTFMbMv5KtnFk/view?usp=sharing">
 
 
 </head>
+
 <body>
-    
-     <!-- header fixed-top"-->
-     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">IBWallet</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Menu Principal">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link  " href="#contactos">Contacto</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
+
+  <!-- header fixed-top"-->
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">IBWallet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Menu Principal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link  " href="#contactos">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
-      <!-- inicio -->  
-      <section id="inicio" class="container">
-        
-        <img src="./images/icono-login.png" style="height: 300px;" class="d-block mx-auto" alt="Icono que representa a un usuario">  
-        
-        <div class="row align-items-center py-2">
-          <div class="col-lg-12 d-flex justify-content-center py-4">
-            <h1>Ingresar a IBWallet</h1>
+  <!-- inicio -->
+  <section id="inicio" class="container">
+
+    <img src="./images/icono-login.png" style="height: 300px;" class="d-block mx-auto"
+      alt="Icono que representa a un usuario">
+
+    <div class="row align-items-center py-2">
+      <div class="col-lg-12 d-flex justify-content-center py-4">
+        <h1>Ingresar a IBWallet</h1>
+      </div>
+    </div>
+
+    <div class="row align-items-center pb-5 mb-5">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <form class="row g-3">
+          <div class="col-md-12 form-item">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
           </div>
-        </div>
-        
-        <div class="row align-items-center pb-5 mb-5">   
-            <div class="col-lg-12 d-flex justify-content-center">
-              <form class="row g-3">
-                <div class="col-md-12 form-item">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-12 form-item">
-                  <label for="inputPassword4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>               
-              </form>
-            </div>
-            <div class="col-12 d-flex justify-content-center">
-              <a href="" class="boton-login">Ingresar</a>
-            </div>
-        </div>
-      </section>
-        
-      <!-- footer 
+          <div class="col-md-12 form-item">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        </form>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <a href="" class="boton-login">Ingresar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer 
         
         <footer id="contactos" class="pt-5">
 
@@ -111,12 +117,17 @@
 
 
 
-          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-      
-          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-          <script>
-            AOS.init();
-          </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
