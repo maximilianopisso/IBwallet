@@ -28,15 +28,12 @@ header nav .navbar-brand {
     font-size: 2rem;
   }
 }
-header nav #navbarNav {
-  justify-content: end;
-}
-header nav #navbarNav ul li {
+header nav ul li {
   color: #8842c1 !important;
   font-weight: bolder;
   padding: 10px px !important;
 }
-header nav #navbarNav ul li a {
+header nav ul li a {
   font-family: sans-serif;
   font-weight: 700;
   color: white !important;
@@ -44,13 +41,13 @@ header nav #navbarNav ul li a {
   padding: 10px 10px !important;
   margin: 0 10px;
 }
-header nav #navbarNav ul li a:hover {
+header nav ul li a:hover {
   background-color: #a068ce;
   border-radius: 10px;
   transition: all 1.3s;
 }
 @media screen and (max-width: 1200px) {
-  header nav #navbarNav ul li a {
+  header nav ul li a {
     font-weight: 700;
     font-size: 1.3rem;
     padding: 5px 10px !important;
