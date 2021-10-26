@@ -2,12 +2,16 @@
 
 #inicio{
 
-    margin-top: $separacion_sections;
-
+    margin-top: $separacion_sections * 2.5;
+    padding-top: $padding_sections;
     @media screen and (min-width:0px)and (max-width:510px){
-        margin-top: $separacion_sections_sm;
+        margin-top: $separacion_sections ;
+        padding-top: $padding_sections/2;
     }
     
+    
+
+
         h1{
             //font-family: nth($tipo_fuente,2);
             font-size: nth($size_fuente,1);
@@ -32,6 +36,8 @@
         }
 
     .inicio-container{
+        display: flex;
+        align-items: center;
 
         .description-container{
             

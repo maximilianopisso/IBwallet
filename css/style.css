@@ -46,6 +46,11 @@ header nav ul li a:hover {
   border-radius: 10px;
   transition: all 1.3s;
 }
+@media screen and (max-width: 991px) {
+  header nav ul li a:hover {
+    background-color: #8842c1;
+  }
+}
 @media screen and (max-width: 1200px) {
   header nav ul li a {
     font-weight: 700;
@@ -56,11 +61,13 @@ header nav ul li a:hover {
 }
 
 #inicio {
-  margin-top: 10rem;
+  margin-top: 12.5rem;
+  padding-top: 10rem;
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #inicio {
-    margin-top: 7rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
   }
 }
 #inicio h1 {
@@ -82,6 +89,10 @@ header nav ul li a:hover {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
+}
+#inicio .inicio-container {
+  display: flex;
+  align-items: center;
 }
 #inicio .inicio-container .description-container h2 {
   font-size: 2.5rem;
@@ -116,11 +127,13 @@ header nav ul li a:hover {
 }
 
 #nosotros {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding-top: 10rem;
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #nosotros {
-    margin-top: 7rem;
+    margin-top: 1rem;
+    padding-top: 5rem;
   }
 }
 #nosotros h2 {
@@ -180,11 +193,13 @@ header nav ul li a:hover {
 }
 
 #servicios {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding-top: 10rem;
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #servicios {
-    margin-top: 7rem;
+    margin-top: 1rem;
+    padding-top: 5rem;
   }
 }
 #servicios h2 {
@@ -262,8 +277,19 @@ header nav ul li a:hover {
   }
 }
 
+#ingreso {
+  margin-top: 5rem;
+  padding-top: 10rem;
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #ingreso {
+    margin-top: 1rem;
+    padding-top: 5rem;
+  }
+}
+
 #contactos {
-  margin-top: 10rem;
+  margin-top: 5rem;
   background-color: #8842c1;
   padding: 10rem;
 }

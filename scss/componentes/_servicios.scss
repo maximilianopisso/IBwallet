@@ -1,11 +1,12 @@
 #servicios{
 
     margin-top: $separacion_sections;
+    padding-top: $padding_sections;
     
-
-    @media screen and (min-width:0px)and (max-width:510px){
-        margin-top: $separacion_sections_sm;
-    }
+        @media screen and (min-width:0px)and (max-width:510px){
+            margin-top: $separacion_sections/5;
+            padding-top: $padding_sections/2;
+        }
     
     h2{
         font-size: nth($size_fuente,3);
