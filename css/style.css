@@ -278,6 +278,56 @@ header nav ul li a:hover {
 }
 
 #ingreso {
+  margin-top: 12.5rem;
+  padding-bottom: 12.5rem;
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #f4f4f4 30%, #9455c7 100%);
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #ingreso {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+}
+#ingreso .CACA {
+  background-color: black;
+}
+#ingreso .carrusel-container .carousel-item {
+  text-align: center;
+}
+#ingreso .carrusel-container .carousel-item h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #532776;
+  text-align: center;
+}
+#ingreso .carrusel-container .carousel-item p {
+  font-weight: 600;
+  color: #3f3e3e;
+  font-size: 2rem;
+}
+#ingreso .carrusel-container .carousel-item img {
+  height: 6000px;
+}
+#ingreso .boton {
+  background-color: #fafa9d;
+  border-radius: 5px;
+  padding: 10px 40px;
+  color: #757575;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+#ingreso .boton:hover {
+  background-color: #8842c1;
+  color: white;
+  padding: 10px 50px;
+  transition: all 1s;
+}
+
+#ingreso {
   margin-top: 5rem;
   padding-top: 10rem;
 }
