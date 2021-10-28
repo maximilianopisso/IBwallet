@@ -289,10 +289,12 @@ header nav ul li a:hover {
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-img img {
   height: 400px;
+  width: 400px;
 }
 @media screen and (max-width: 768px) {
   #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-img img {
     width: 300px;
+    height: 300px;
   }
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text {
@@ -312,7 +314,7 @@ header nav ul li a:hover {
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text p {
   font-weight: 500;
-  color: #1d1b1b;
+  color: #e6e6ab;
   font-size: 29px;
   width: 80%;
   margin: 0px auto;

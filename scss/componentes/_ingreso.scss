@@ -25,10 +25,12 @@
                     .carousel-img{   
                         img{
                             
-                            height: 400px; 
+                            height: 400px;
+                            width: 400px; 
 
                             @media screen and (max-width:768px){
                                 width: 300px;
+                                height: 300px;
                             }
                         }
 
@@ -51,7 +53,7 @@
                         p{
                             font-weight:500;
                            // color: darken($color_text_normal,0%);
-                           color: rgb(29, 27, 27);
+                           color: rgb(230, 230, 171);
                             font-size: nth($size_fuente,7);
                             width: 80%;
                             margin: 0px auto;
