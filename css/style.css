@@ -393,7 +393,7 @@ header nav ul li a:hover {
   margin: 0 auto;
 }
 #login .conteiner-login form .form-item label {
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: 500;
   padding-top: 10px;
 }
