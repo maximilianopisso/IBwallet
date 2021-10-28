@@ -215,7 +215,7 @@ header nav .nav-container ul li a:hover {
 #servicios h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  padding: 0rem 0rem 5rem 0rem;
+  padding-bottom: 7vh;
   color: #532776;
 }
 @media only screen and (max-width: 991px) {
@@ -226,7 +226,7 @@ header nav .nav-container ul li a:hover {
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #servicios h2 {
     font-size: 1.5rem;
-    padding: 2rem 0rem;
+    padding-bottom: 5vh;
   }
 }
 #servicios .servicios-container {
@@ -237,11 +237,11 @@ header nav .nav-container ul li a:hover {
 @media only screen and (max-width: 991px) {
   #servicios .servicios-container {
     flex-direction: column;
-    margin-bottom: 3.5rem;
+    margin-bottom: 10 vh;
   }
 }
 #servicios .servicios-container .item-servicios {
-  max-width: 350px;
+  max-width: 200 px;
 }
 @media only screen and (max-width: 991px) {
   #servicios .servicios-container .item-servicios {
@@ -265,13 +265,13 @@ header nav .nav-container ul li a:hover {
   transition: all 1s;
 }
 #servicios .servicios-container .item-servicios .card img {
-  padding: 10px 10px 0px 10px;
+  max-width: 250px;
+  width: 80%;
 }
 #servicios .servicios-container .item-servicios .card-body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
 }
 #servicios .servicios-container .item-servicios .card-body .card-text {
   color: #404040;
