@@ -3,14 +3,14 @@ header{
     //height: 120px;
     background-color: $color_head_foot;
     width: 100%;
-    order:99 ;
+    order:10 ;
     
 
     nav{
 
         .navbar-brand{
         font-family: nth($tipo_fuente,2); 
-        font-size: 3rem;
+        font-size: nth($size_fuente,4);
         font-weight: 900;
         padding-left: 2%;
         color: $color_text_head_foot;
