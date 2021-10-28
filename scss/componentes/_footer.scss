@@ -1,10 +1,10 @@
 #contactos{
 
-    padding: $separacion_sections*1.5 0px $separacion_sections 0px ;
-    background-color: $color_head_foot;
+    padding: $margin_sections*1.5 0px $margin_sections 0px ;
+    background-color: $color_principal;
     width: 100%;
         @media screen and (min-width:0px)and (max-width:510px){
-        padding-top: $separacion_sections*1.5
+        padding-top: $margin_sections*1.5
         }
 
     .leyenda{

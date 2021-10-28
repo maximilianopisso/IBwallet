@@ -1,20 +1,19 @@
 
 
 #nosotros{
-margin-top: $separacion_sections;
-padding-top: $padding_sections;
+
+    @include separador_secciones($margin_sections,$padding_sections);
+
+    @media screen and (max-width:991px){ 
+        @include separador_secciones($margin_sections,$padding_sections/2);
+    }
 
     @media screen and (min-width:0px)and (max-width:510px){
-        margin-top: $separacion_sections/5;
-        padding-top: $padding_sections/2;
+        @include separador_secciones($margin_sections/5,$padding_sections);
     }
 
     h2{
-        font-size: nth($size_fuente,3);
-        font-weight: 700;
-        padding-bottom: $separacion_sections;
-        color: darken($color_head_foot,20%);
-        padding-bottom: 7vh; 
+        @include titulos_seccion(7vh,nth($size_fuente,3));
 
         @media only screen and (max-width:991px){
             text-align: center;
@@ -36,7 +35,6 @@ padding-top: $padding_sections;
         .text-container{
             
             padding-right: 20px;
-
 
             p{
                 color: $color_text_normal;

@@ -1,18 +1,20 @@
 #servicios{
 
-    margin-top: $separacion_sections;
-    padding-top: $padding_sections;
-    
-        @media screen and (min-width:0px)and (max-width:510px){
-            margin-top: $separacion_sections/5;
-            padding-top: $padding_sections/2;
-        }
+    @include separador_secciones($margin_sections,$padding_sections);
+
+    @media screen and (max-width:991px){ 
+        @include separador_secciones($margin_sections,$padding_sections);
+    }
+
+    @media screen and (min-width:0px)and (max-width:510px){
+        @include separador_secciones($margin_sections/5,$padding_sections/2);
+    }
     
     h2{
         font-size: nth($size_fuente,3);
         font-weight: 700;
         padding-bottom: 7vh; 
-        color: darken($color_head_foot,20%);
+        color: darken($color_principal,20%);
 
         @media only screen and (max-width:991px){
             text-align: center;
@@ -37,7 +39,7 @@
             } 
 
         .item-servicios{ 
-            max-width:200 px;
+           
         
             @media only screen and (max-width:991px){
                 max-width: 400px;
@@ -49,18 +51,18 @@
 
             .card{
                 display: flex;
+                height: 420px;
                 border-radius: 10px;             
                 text-align: center;
-                background: darken(white,2.5%);              
+                background-color: $color_fondo_cards;              
 
                 &:hover{
-                    box-shadow: rgba($color_head_foot, 0.5) 0px 10px 20px; 
+                    box-shadow: rgba($color_principal, 0.5) 0px 10px 20px; 
                     transition: all 1s;
                 }   
                 img{
-                //    padding: 10px 10px 0px 10px ;
-                   max-width: 250px;
-                   width: 80%;
+                   max-width: 270px;
+                   width: 85%;
                     }
 
             }

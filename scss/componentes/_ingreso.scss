@@ -1,17 +1,20 @@
 #ingreso{
-    margin-top: $separacion_sections;
-    padding: $padding_sections 0vh;
     display: flex;
     justify-content: center;
-       
-    
-        @media screen and (min-width:0px)and (max-width:510px){
-            // margin-top: $separacion_sections ;
-            // padding-top: $padding_sections/2;
-        }
+    padding-bottom:$padding_sections ;
+   
+    @include separador_secciones($margin_sections,$padding_sections);
+   
+    @media screen and (max-width:991px){ 
+        @include separador_secciones($margin_sections,$padding_sections);
+    }
+
+    @media screen and (min-width:0px)and (max-width:510px){
+        @include separador_secciones($margin_sections/5,$padding_sections);
+    }
         
-        //background-color: $color_head_foot;
-       background-image: linear-gradient(180deg,#f4f4f4 30%,lighten($color_head_foot, 5%) 100%); 
+        //background-color: $color_principal;
+       background-image: linear-gradient(180deg,#f4f4f4 30%,lighten($color_principal, 5%) 100%); 
       
     .carrusel-container{
        
@@ -41,7 +44,7 @@
                             font-size: nth($size_fuente,4);
                             margin: 2vh 0vh;
                             font-weight: 700;
-                            color: darken($color_head_foot, 30%);
+                            color: darken($color_principal, 30%);
                             text-align: center;
 
                             @media screen and (max-width:768px){
@@ -51,7 +54,7 @@
                         }
                         p{
                             font-weight:500;
-                            color: darken(mix($color_head_foot,rgb(255, 0, 128)),30%);
+                            color: darken(mix($color_principal,$color_secundario),30%);
                             font-size: nth($size_fuente,7);
                             width: 70%;
                             margin: 0px auto;
@@ -71,29 +74,6 @@
       
 
     .boton{
-        font-size: nth($size_fuente,8);
-        color: darken($color_head_foot,30%);
-        background-color: rgb(255, 226, 59);
-        border-radius: 5px;
-        padding: 10px 30px;
-        font-weight: bold;
-        text-decoration: none; 
-
-            @media screen and (max-width:768px){
-                font-size: nth($size_fuente,7)/1.5;
-                padding: 10px 30px;
-               
-            }
-
-        &:hover{
-            background-color:#8842c1;;
-            color: white;
-            padding: 10px 40px;
-            transition: all 1s;
-
-            @media screen and (max-width:768px){
-                padding: 10px 30px;     
-            }
-        }
+        @extend %botones;
     }
 }

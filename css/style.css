@@ -1,9 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+#login .conteiner-login .boton, #ingreso .boton {
+  font-size: 22px;
+  color: #381a50;
+  background-color: #ffe23b;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  #login .conteiner-login .boton, #ingreso .boton {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+}
+#login .conteiner-login .boton:hover, #ingreso .boton:hover {
+  background-color: #8842c1;
+  color: white;
+  padding: 10px 40px;
+  transition: all 1s;
+}
+@media screen and (max-width: 768px) {
+  #login .conteiner-login .boton:hover, #ingreso .boton:hover {
+    padding: 10px 30px;
+  }
+}
+
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background-image: linear-gradient(180deg, white 10%, #ededed 120%);
+  font-size: "Raleway", sans-serif, "Roboto", sans-serif 2;
 }
 body * {
   margin: 0px;
@@ -14,7 +42,7 @@ header {
   background-color: #8842c1;
 }
 header nav .nav-container {
-  height: 70px;
+  height: 55px;
   padding: 0 50px;
 }
 @media screen and (max-width: 991px) {
@@ -68,21 +96,19 @@ header nav .nav-container ul li a:hover {
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #inicio {
     margin-top: 10vh;
-    padding-top: 10vh;
+    padding-top: 20vh;
   }
 }
 #inicio h1 {
   font-size: 3rem;
   font-weight: 700;
   color: #532776;
-  margin: 0rem 0rem 5vh 5vw;
+  margin: 0rem 0rem 7vh 5vw;
 }
 @media screen and (max-width: 767px) {
   #inicio h1 {
     font-size: 2.5rem;
     text-align: center;
-    margin: 0px;
-    margin-bottom: 10vh;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
@@ -95,11 +121,16 @@ header nav .nav-container ul li a:hover {
   display: flex;
   align-items: center;
 }
+#inicio .inicio-container .description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #inicio .inicio-container .description-container h2 {
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 5px 0rem;
-  color: #9455c7;
+  padding-bottom: 2vh;
+  color: #8d4ac4;
 }
 @media screen and (max-width: 991px) {
   #inicio .inicio-container .description-container h2 {
@@ -111,15 +142,10 @@ header nav .nav-container ul li a:hover {
     text-align: center;
   }
 }
-@media screen and (max-width: 500px) {
-  #inicio .inicio-container .description-container h2 {
-    font-size: 1.5rem;
-  }
-}
 #inicio .inicio-container .description-container .slogan {
-  margin: 30px 0px;
+  margin: 3vh 0vh 1vh 0vh;
   color: #6d339d;
-  font-weight: bolder;
+  font-weight: 700;
 }
 #inicio .inicio-container .image-container img {
   display: block;
@@ -132,18 +158,23 @@ header nav .nav-container ul li a:hover {
   margin-top: 10vh;
   padding-top: 20vh;
 }
+@media screen and (max-width: 991px) {
+  #nosotros {
+    margin-top: 10vh;
+    padding-top: 10vh;
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #nosotros {
     margin-top: 2vh;
-    padding-top: 10vh;
+    padding-top: 20vh;
   }
 }
 #nosotros h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  padding-bottom: 10vh;
-  color: #532776;
   padding-bottom: 7vh;
+  color: #532776;
 }
 @media only screen and (max-width: 991px) {
   #nosotros h2 {
@@ -207,6 +238,12 @@ header nav .nav-container ul li a:hover {
   margin-top: 10vh;
   padding-top: 20vh;
 }
+@media screen and (max-width: 991px) {
+  #servicios {
+    margin-top: 10vh;
+    padding-top: 20vh;
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #servicios {
     margin-top: 2vh;
@@ -241,9 +278,6 @@ header nav .nav-container ul li a:hover {
     margin-bottom: 10 vh;
   }
 }
-#servicios .servicios-container .item-servicios {
-  max-width: 200 px;
-}
 @media only screen and (max-width: 991px) {
   #servicios .servicios-container .item-servicios {
     max-width: 400px;
@@ -257,17 +291,18 @@ header nav .nav-container ul li a:hover {
 }
 #servicios .servicios-container .item-servicios .card {
   display: flex;
+  height: 420px;
   border-radius: 10px;
   text-align: center;
-  background: #f9f9f9;
+  background-color: #f9f9f9;
 }
 #servicios .servicios-container .item-servicios .card:hover {
   box-shadow: rgba(136, 66, 193, 0.5) 0px 10px 20px;
   transition: all 1s;
 }
 #servicios .servicios-container .item-servicios .card img {
-  max-width: 250px;
-  width: 80%;
+  max-width: 270px;
+  width: 85%;
 }
 #servicios .servicios-container .item-servicios .card-body {
   display: flex;
@@ -287,11 +322,24 @@ header nav .nav-container ul li a:hover {
 }
 
 #ingreso {
-  margin-top: 10vh;
-  padding: 20vh 0vh;
   display: flex;
   justify-content: center;
+  padding-bottom: 20vh;
+  margin-top: 10vh;
+  padding-top: 20vh;
   background-image: linear-gradient(180deg, #f4f4f4 30%, #9455c7 100%);
+}
+@media screen and (max-width: 991px) {
+  #ingreso {
+    margin-top: 10vh;
+    padding-top: 20vh;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #ingreso {
+    margin-top: 2vh;
+    padding-top: 20vh;
+  }
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item {
   text-align: center;
@@ -333,33 +381,6 @@ header nav .nav-container ul li a:hover {
     font-size: 13.3333333333px;
   }
 }
-#ingreso .boton {
-  font-size: 18px;
-  color: #381a50;
-  background-color: #ffe23b;
-  border-radius: 5px;
-  padding: 10px 30px;
-  font-weight: bold;
-  text-decoration: none;
-}
-@media screen and (max-width: 768px) {
-  #ingreso .boton {
-    font-size: 13.3333333333px;
-    padding: 10px 30px;
-  }
-}
-#ingreso .boton:hover {
-  background-color: #8842c1;
-  color: white;
-  padding: 10px 40px;
-  transition: all 1s;
-}
-@media screen and (max-width: 768px) {
-  #ingreso .boton:hover {
-    padding: 10px 30px;
-  }
-}
-
 #login {
   margin-top: 10vh;
   padding-top: 10vh;
@@ -408,31 +429,7 @@ header nav .nav-container ul li a:hover {
   width: 100%;
 }
 #login .conteiner-login .boton {
-  font-size: 15px;
-  color: #381a50;
-  background-color: #ffe23b;
-  margin-top: 2vh;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-weight: bold;
-  text-decoration: none;
-}
-@media screen and (max-width: 768px) {
-  #login .conteiner-login .boton {
-    font-size: 13.3333333333px;
-    padding: 10px 20px;
-    margin-top: 20px;
-  }
-}
-#login .conteiner-login .boton:hover {
-  background-color: #8842c1;
-  color: white;
-  transition: all 1s;
-}
-@media screen and (max-width: 768px) {
-  #login .conteiner-login .boton:hover {
-    padding: 10px 30px;
-  }
+  margin-top: 7vh;
 }
 
 #contactos {

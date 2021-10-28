@@ -1,12 +1,12 @@
 
 header{  
-    background-color: $color_head_foot;
+    background-color: $color_principal;
     
     nav{
 
         .nav-container{
 
-            height: 70px;
+            height: 55px;
             padding: 0 50px;
         
             @media screen and (max-width:991px){
@@ -27,7 +27,7 @@ header{
         }
         ul{
             li{
-                color:$color_head_foot !important;
+                color:$color_principal !important;
                 font-weight: bolder;
                 padding: 10px px!important;
                                 
@@ -40,7 +40,7 @@ header{
                 margin: 0 10px;
 
                     &:hover{
-                        background-color:lighten($color_head_foot,10%);
+                        background-color:lighten($color_principal,10%);
                         border-radius: 10px;
                         transition: all 1.3s;
                     }
@@ -49,7 +49,7 @@ header{
                         
                         
                         &:hover{
-                            background-color:($color_head_foot);
+                            background-color:($color_principal);
                         }
 
                        
