@@ -1,0 +1,90 @@
+
+
+
+#login{
+
+    margin-top: $separacion_sections*0.5;
+    padding-top: $padding_sections*0.5;
+        @media screen and (min-width:0px)and (max-width:510px){
+            margin-top: $separacion_sections ;
+            padding-top: $padding_sections/2;
+        }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+       
+        max-width: 250px;
+        width: 85%;
+       }
+
+
+    h1{
+          
+        font-size: nth($size_fuente,3);
+        font-weight: 700;
+        color: darken($color_head_foot,20%);
+        margin: 1rem 0px 2rem 0px;
+        text-align: center;
+
+        @media screen and (min-width:0px)and (max-width:768px){
+            font-size: nth($size_fuente,4);
+        }
+    }
+
+
+    .conteiner-login{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        form{   
+            .form-item{
+                display: block;
+                margin: 0 auto;
+
+                label{
+                    font-size: nth($size_fuente,5);
+                    font-weight: 500;
+                    padding-top: 10px;
+                }
+                input{
+                border: 2px solid $color_head_foot ;
+                width: 100%;
+                  }
+
+             }
+        }
+
+        .boton{
+            font-size: nth($size_fuente,10);
+            color: darken($color_head_foot,30%);
+            background-color: rgb(255, 226, 59);
+            margin-top: 50px;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-weight: bold;
+            text-decoration: none; 
+    
+                @media screen and (max-width:768px){
+                    font-size: nth($size_fuente,7)/1.5;
+                    padding: 10px 20px;
+                    margin-top: 20px;
+                }
+    
+            &:hover{
+                background-color:#8842c1;;
+                color: white;
+                transition: all 1s;
+    
+                @media screen and (max-width:768px){
+                    padding: 10px 30px;     
+                }
+            }
+        }
+    }
+
+}

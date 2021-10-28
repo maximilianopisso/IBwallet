@@ -61,7 +61,7 @@
                             <a class="nav-link" href="#servicios">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#ingreso">Ingresar</a>
+                            <a class="nav-link" href="#boton-loc">Ingresar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link  " href="#contactos">Contacto</a>
@@ -190,17 +190,17 @@
         <section id="ingreso">
             <div class="container">   
                 <div class="row">
-                    <div class="col-12 carrusel-container">
+                    <div class="col-12 carrusel-container"id="boton-loc">
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
+                            <div class="carousel-indicators" >
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                                     class="active" aria-current="true" aria-label="Imagen 1 : Recibir Dinero"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                                     aria-label="Imagen 2 : Asociar Tarjeta"></button>
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                <button  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                                     aria-label="Imagen 3 : Transacciones"></button>
                             </div>      
-                            <div class="carousel-inner">   
+                            <div class="carousel-inner" id="">   
                                 <div class="carousel-item active">
                                     <div class="carousel-img">   
                                         <img src="./images/carrusel-dinero.svg" loading="lazy"
@@ -208,7 +208,7 @@
                                             asociando la idea de recibir dinero en tu cuentas">
                                     </div>
                                     <div class="carousel-text descripcion-carrousel-lg">
-                                        <h2>Recibí tu Dinero</h2>
+                                        <h2 >Recibí tu Dinero</h2>
                                         <p class="descripcion-carrousel">Crea tu propia IBWallet y comenzá a
                                             recibir tu dinero en tu billetera digital </p>
                                     </div>
@@ -250,18 +250,18 @@
                     </div>
                 </div>                
                 <div class="col-12 d-flex justify-content-center">
-                    <a href="login.html" class="boton">Ingresar</a></button>
+                    <a href="login.html" class="boton" >Ingresar</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <!--footer  
+    <!-- footer   -->
       <footer id="contactos" class="">
 
-      <div class="row d-flex">
+      <div class="row conteiner-fluid contactos-container">
 
-            <div class="col-6 d-block text-center">
+            <div class="col-sm-12 col-md-6 col-lg-6   redessociales-container">
 
                 <p class="titulos">Nuestras Redes</p>
                 <a class="fa fa-facebook" href="https:\\facebook.com"></a>
@@ -270,7 +270,7 @@
 
             </div>
 
-            <div class="col-6 text-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 contactos-container">
                 <p class="titulos">Escribinos</p>
                 <address>
                     <p>contacto@ibwallet.com.ar</p>
@@ -278,9 +278,9 @@
             </div>
         </div>
 
-        <p class="leyenda text-center pb-5">Copyright © 2021 IBWallet S.A. Todos los derechos reservados</p> 
+        <p class="leyenda">Copyright © 2021 IBWallet S.A. Todos los derechos reservados</p> 
 
-    </footer>-->
+    </footer>
 
 
 
