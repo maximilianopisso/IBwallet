@@ -353,9 +353,86 @@ header nav ul li a:hover {
   }
 }
 
+#login {
+  margin-top: 2.5rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #login {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+}
+#login img {
+  max-width: 250px;
+  width: 85%;
+}
+#login h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #532776;
+  margin: 1rem 0px 2rem 0px;
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #login h1 {
+    font-size: 2rem;
+  }
+}
+#login .conteiner-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login .conteiner-login form .form-item {
+  display: block;
+  margin: 0 auto;
+}
+#login .conteiner-login form .form-item label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 10px;
+}
+#login .conteiner-login form .form-item input {
+  border: 2px solid #8842c1;
+  width: 100%;
+}
+#login .conteiner-login .boton {
+  font-size: 18px;
+  color: #381a50;
+  background-color: #ffe23b;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  #login .conteiner-login .boton {
+    font-size: 19.3333333333px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+}
+#login .conteiner-login .boton:hover {
+  background-color: #8842c1;
+  color: white;
+  transition: all 1s;
+}
+@media screen and (max-width: 768px) {
+  #login .conteiner-login .boton:hover {
+    padding: 10px 30px;
+  }
+}
+
 #contactos {
   padding: 5rem 0px 5rem 0px;
   background-color: #8842c1;
+  width: 100%;
 }
 @media screen and (min-width: 0px) and (max-width: 510px) {
   #contactos {
@@ -411,6 +488,12 @@ header nav ul li a:hover {
 #contactos .contactos-container .contactos-container {
   display: block;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #contactos .contactos-container .contactos-container {
+    font-size: 25px;
+    padding-top: 30px !important;
+  }
 }
 #contactos .contactos-container .contactos-container address p {
   color: white;

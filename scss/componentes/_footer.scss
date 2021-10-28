@@ -2,7 +2,7 @@
 
     padding: $separacion_sections 0px $separacion_sections 0px ;
     background-color: $color_head_foot;
-    
+    width: 100%;
         @media screen and (min-width:0px)and (max-width:510px){
         padding-top: $separacion_sections*1.5
         }
@@ -62,7 +62,11 @@
         .contactos-container{
             display: block;
             text-align: center;
-
+                
+                @media screen and (max-width:768px){
+                    font-size: nth($size_fuente,8);
+                    padding-top: 30px !important;
+                }
               
             address{
                 p{   

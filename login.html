@@ -58,62 +58,57 @@
   </header>
 
   <!-- inicio -->
-  <section id="inicio" class="container">
+  <section id="login" class="container">
 
-    <img src="./images/icono-login.png" style="height: 300px;" class="d-block mx-auto"
-      alt="Icono que representa a un usuario">
-
-    <div class="row align-items-center py-2">
-      <div class="col-lg-12 d-flex justify-content-center py-4">
-        <h1>Ingresar a IBWallet</h1>
-      </div>
-    </div>
-
+    <img id="icono"src="./images/login.svg" class="" alt="Imagen alusoria a la necesidad de 
+    realizar un logeo con usurio y contraseña para acceder a los servicios">
+    <h1>Ingresar a IBWallet</h1>   
+    
+    <div class="row conteiner-login">
     <div class="row align-items-center pb-5 mb-5">
       <div class="col-lg-12 d-flex justify-content-center">
         <form class="row g-3">
           <div class="col-md-12 form-item">
             <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <input type="email" class="form-control" id="inputEmail4" placeholder="e-mail" required>
           </div>
           <div class="col-md-12 form-item">
             <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
+            <input type="password" class="form-control" id="inputPassword4" placeholder="password" required> 
           </div>
         </form>
       </div>
       <div class="col-12 d-flex justify-content-center">
-        <a href="" class="boton-login">Ingresar</a>
-      </div>
+        <a href="login.html" class="boton" >Ingresar</a>
+    </div>
     </div>
   </section>
 
-  <!-- footer 
-        
-        <footer id="contactos" class="pt-5">
+  <footer id="contactos" class="">
 
+    <div class="row conteiner-fluid contactos-container">
 
-          <div class="row d-flex py-5 mt-3">
-  
-              <div class="col-6 d-block text-center">
-  
-                  <p class="titulos">Nuestras Redes</p>
-                  <a class="fa fa-facebook" href="https:\\facebook.com"></a>
-                  <a class="fa fa-twitter" href="https:\\twitter.com"></a>
-                  <a class="fa fa-instagram" href="https:\\instagram.com"></a>
-  
-              </div>
-  
-              <div class="col-6 text-center">
-                  <p class="titulos">Escribinos</p>
-                  <p>contacto@ibwallet.com.ar</p>
-              </div>
+          <div class="col-sm-12 col-md-6 col-lg-6   redessociales-container">
+
+              <p class="titulos">Nuestras Redes</p>
+              <a class="fa fa-facebook" href="https:\\facebook.com"></a>
+              <a class="fa fa-twitter" href="https:\\twitter.com"></a>
+              <a class="fa fa-instagram" href="https:\\instagram.com"></a>
+
           </div>
-  
-          <p class="leyenda text-center pb-5">Copyright © 2021 IBWallet S.A. Todos los derechos reservados</p>
-  
-      </footer>
-    -->
+
+          <div class="col-sm-12 col-md-6 col-lg-6  contactos-container">
+              <p class="titulos">Escribinos</p>
+              <address>
+                  <p>contacto@ibwallet.com.ar</p>
+              </address>
+          </div>
+      </div>
+
+      <p class="leyenda">Copyright © 2021 IBWallet S.A. Todos los derechos reservados</p> 
+
+  </footer>
+
 
 
 
