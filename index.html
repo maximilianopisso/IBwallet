@@ -189,10 +189,9 @@
         <!-- portada    -->
 
         <section id="ingreso">
-            <div class="container">
-               
+            <div class="container">   
                 <div class="row">
-                    <div class="col-12 carrusel-container container">
+                    <div class="col-12 carrusel-container">
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -201,144 +200,62 @@
                                     aria-label="Imagen 2 : Asociar Tarjeta"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                                     aria-label="Imagen 3 : Transacciones"></button>
-                            </div>
-                            
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="d-flex">
-                                            <img src="./images/carrusel-dinero.svg" loading="lazy" style="height: 300px;"
-                                                class="w-50 ms-5 px-5"
-                                                alt="Imagen representativa de fajos de dinero, asociando la idea de recibir dinero en tu cuentas">
-
-                                            <div class="d-flex flex-column  descripcion-carrousel-lg">
-                                                <h2 class="m-3">Recibí tu Dinero</h2>
-                                                <p class="descripcion-carrousel mx-3">Crea tu propia IBWallet y comenzá a
-                                                    recibir tu dinero en tu billetera digital </p>
-                                            </div>
-                                        </div>
+                            </div>      
+                            <div class="carousel-inner">   
+                                <div class="carousel-item active">
+                                    <div class="carousel-img">    <!--d-flex -->
+                                        <img src="./images/carrusel-dinero.svg" loading="lazy"
+                                            class="" alt="Imagen representativa de fajos de dinero, 
+                                            asociando la idea de recibir dinero en tu cuentas">
                                     </div>
-                                
-                                    <div class="carousel-item ">
-                                        <div class="d-flex">
-                                            <img src="./images/carrusel-tarjeta.svg" loading="lazy" style="height: 300px;"
-                                                class="w-50 px-5"
-                                                alt="Imagen representativa de una billetera sacando una tarjeta bancaria, asociando la idea de poder asociarlas en tu cuentas">
-
-                                            <div class="d-flex flex-column  ">
-                                                <h2>Asocia tus Tarjetas</h2>
-                                                <p class="descripcion-carrousel">Podes asociar tus tarjetas bancarias y efectuar
-                                                    transacciones con todas ellas</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item ">
-                                        <div class="d-flex">
-                                            <img src="./images/carrusel-tarjeta.svg" loading="lazy" style="height: 300px;"
-                                                class="w-50 px-5"
-                                                alt="Imagen representativa de una billetera sacando una tarjeta bancaria, asociando la idea de poder asociarlas en tu cuentas">
-
-                                            <div class="d-flex flex-column  ">
-                                                <h2>Asocia tus Tarjetas</h2>
-                                                <p class="descripcion-carrousel">Podes asociar tus tarjetas bancarias y efectuar
-                                                    transacciones con todas ellas</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>    
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>         
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 d-flex justify-content-center">
-                        <a href="login.html" class="boton">Ingresar</a></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- <div class="row">
-                <div class="col-12 carrusel-container container">   <!--d-flex justify-content-center mt-5-->
-        <!--
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Imagen 1 : Recibir Dinero"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                aria-label="Imagen 2 : Asociar Tarjeta"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                                aria-label="Imagen 3 : Transacciones"></button>
-                        </div>
-                        <div class="carousel-inner"> 
-                            <div class="carousel-item active">
-                                <div class="d-flex">
-                                    <img src="./images/carrusel-dinero.svg" loading="lazy" style="height: 300px;"
-                                        class="w-50 ms-5 px-5"
-                                        alt="Imagen representativa de fajos de dinero, asociando la idea de recibir dinero en tu cuentas">
-
-                                    <div class="d-flex flex-column  descripcion-carrousel-lg">
-                                        <h2 class="m-3">Recibí tu Dinero</h2>
-                                        <p class="descripcion-carrousel mx-3">Crea tu propia IBWallet y comenzá a
+                                    <div class="carousel-text descripcion-carrousel-lg">
+                                        <h2>Recibí tu Dinero</h2>
+                                        <p class="descripcion-carrousel">Crea tu propia IBWallet y comenzá a
                                             recibir tu dinero en tu billetera digital </p>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="carousel-item ">
-                                <div class="d-flex">
-                                    <img src="./images/carrusel-tarjeta.svg" loading="lazy" style="height: 300px;"
-                                        class="w-50 px-5"
-                                        alt="Imagen representativa de una billetera sacando una tarjeta bancaria, asociando la idea de poder asociarlas en tu cuentas">
-
-                                    <div class="d-flex flex-column  ">
-                                        <h2>Asocia tus Tarjetas</h2>
+                                    
+                                <!-- copiar clases de demas item carrousel -->
+                                <div class="carousel-item ">
+                                    <div class="carousel-img">
+                                        <img src="./images/carrusel-tarjeta.svg" loading="lazy" class="" alt="Imagen representativa de una billetera
+                                        sacando una tarjeta bancaria, asociando la idea de poder asociarlas en tu cuentas">
+                                    </div>
+                                    <div class="carousel-text">  
+                                        <h2>Asociá tus Tarjetas</h2>
                                         <p class="descripcion-carrousel">Podes asociar tus tarjetas bancarias y efectuar
-                                            transacciones con todas ellas</p>
-                                    </div>
+                                        transacciones con todas ellas</p>
+                                    </div>  
                                 </div>
-                            </div>
 
-                            <div class="carousel-item">
-                                <div class="d-flex">
-                                    <img src="./images/carrusel-operaciones.svg" loading="lazy" style="height: 300px;"
-                                        class="w-50 px-5" class="w-50 ms-5 ps-5"
-                                        alt="Imagen representativa de una persona utilizando la aplicacion para realizar una Operacion bancaria o compra">
-                                    <div class="d-flex flex-column">
+                                <div class="carousel-item ">
+                                    <div class="carousel-img">
+                                        <img src="./images/carrusel-operaciones.svg" loading="lazy" class="" alt="Imagen representativa de una billetera sacando una tarjeta bancaria, 
+                                        asociando la idea de poder asociarlas en tu cuentas">
+                                    </div>
+                                    <div class="carousel-text">    
                                         <h2>Realizá todas tus Operaciones</h2>
-                                        <p>Con IBwallet, vas a poder realizar todo tipo de operaciones desde tus cuentas</p>
+                                       <p>Con IBwallet, vas a poder realizar todo tipo de operaciones desde tus cuentas</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
+                        <div>       
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>      
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
-                </div>
-               
+                </div>                
                 <div class="col-12 d-flex justify-content-center">
                     <a href="login.html" class="boton">Ingresar</a></button>
                 </div>
             </div>
-
-        </section>-->
+        </section>
     </main>
 
     <!--footer  
