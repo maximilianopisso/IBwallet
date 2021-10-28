@@ -3,7 +3,7 @@
 
 #login{
 
-    margin-top: $separacion_sections*0.5;
+    margin-top: $separacion_sections;
     padding-top: $padding_sections*0.5;
         @media screen and (min-width:0px)and (max-width:510px){
             margin-top: $separacion_sections ;
@@ -16,21 +16,21 @@
 
     img{
        
-        max-width: 250px;
-        width: 85%;
+        max-width: 200px;
+        width: 80%;
        }
 
 
     h1{
           
-        font-size: nth($size_fuente,3);
+        font-size: nth($size_fuente,4);
         font-weight: 700;
         color: darken($color_head_foot,20%);
-        margin: 1rem 0px 2rem 0px;
+        margin: 2vh 0vh; 
         text-align: center;
 
         @media screen and (min-width:0px)and (max-width:768px){
-            font-size: nth($size_fuente,4);
+            font-size: nth($size_fuente,5);
         }
     }
 
@@ -44,12 +44,12 @@
         form{   
             .form-item{
                 display: block;
-                margin: 0 auto;
+                margin: 2vh auto 0vh auto;
 
                 label{
                     font-size: nth($size_fuente,9);
                     font-weight: 500;
-                    padding-top: 10px;
+                    
                 }
                 input{
                 border: 2px solid $color_head_foot ;
@@ -63,7 +63,7 @@
             font-size: nth($size_fuente,10);
             color: darken($color_head_foot,30%);
             background-color: rgb(255, 226, 59);
-            margin-top: 50px;
+            margin-top: 2vh;
             border-radius: 5px;
             padding: 10px 20px;
             font-weight: bold;

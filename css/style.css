@@ -26,13 +26,8 @@ header nav .nav-container {
 header nav .nav-container .navbar-brand {
   font-family: sans-serif;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: 700;
   color: white;
-}
-@media only screen and (max-width: 1200px) {
-  header nav .nav-container .navbar-brand {
-    font-size: 2rem;
-  }
 }
 header nav .nav-container ul li {
   color: #8842c1 !important;
@@ -355,7 +350,7 @@ header nav .nav-container ul li a:hover {
 #ingreso .boton:hover {
   background-color: #8842c1;
   color: white;
-  padding: 15px 55px;
+  padding: 10px 40px;
   transition: all 1s;
 }
 @media screen and (max-width: 768px) {
@@ -365,7 +360,7 @@ header nav .nav-container ul li a:hover {
 }
 
 #login {
-  margin-top: 5vh;
+  margin-top: 10vh;
   padding-top: 10vh;
   display: flex;
   flex-direction: column;
@@ -379,19 +374,19 @@ header nav .nav-container ul li a:hover {
   }
 }
 #login img {
-  max-width: 250px;
-  width: 85%;
+  max-width: 200px;
+  width: 80%;
 }
 #login h1 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #532776;
-  margin: 1rem 0px 2rem 0px;
+  margin: 2vh 0vh;
   text-align: center;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   #login h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 #login .conteiner-login {
@@ -401,12 +396,11 @@ header nav .nav-container ul li a:hover {
 }
 #login .conteiner-login form .form-item {
   display: block;
-  margin: 0 auto;
+  margin: 2vh auto 0vh auto;
 }
 #login .conteiner-login form .form-item label {
   font-size: 16px;
   font-weight: 500;
-  padding-top: 10px;
 }
 #login .conteiner-login form .form-item input {
   border: 2px solid #8842c1;
@@ -416,7 +410,7 @@ header nav .nav-container ul li a:hover {
   font-size: 15px;
   color: #381a50;
   background-color: #ffe23b;
-  margin-top: 50px;
+  margin-top: 2vh;
   border-radius: 5px;
   padding: 10px 20px;
   font-weight: bold;
