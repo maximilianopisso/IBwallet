@@ -278,13 +278,76 @@ header nav ul li a:hover {
 }
 
 #ingreso {
-  margin-top: 5rem;
+  padding-bottom: 2.5rem;
   padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #f4f4f4 30%, #9455c7 100%);
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
-  #ingreso {
-    margin-top: 1rem;
-    padding-top: 5rem;
+#ingreso .carrusel-container .carousel-inner .carousel-item {
+  text-align: center;
+}
+#ingreso .carrusel-container .carousel-inner .carousel-item .carousel-img img {
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-img img {
+    width: 300px;
+  }
+}
+#ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text {
+  margin-bottom: 30px;
+}
+#ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text h2 {
+  font-size: 2rem;
+  margin: 20px 0px;
+  font-weight: 700;
+  color: #381a50;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text h2 {
+    font-size: 1.3333333333rem;
+  }
+}
+#ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text p {
+  font-weight: 500;
+  color: #1d1b1b;
+  font-size: 29px;
+  width: 80%;
+  margin: 0px auto;
+}
+@media screen and (max-width: 768px) {
+  #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text p {
+    font-size: 19.3333333333px;
+  }
+}
+#ingreso .boton {
+  margin-top: 20px;
+  background-color: #fafa9d;
+  border-radius: 5px;
+  padding: 15px 40px;
+  color: #757575;
+  font-weight: bold;
+  font-size: 3.5rem, 3rem, 2.5rem, 2rem, 1.5rem, 30px, 29px, 25px, 20px, 18px, 15px, 5;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  #ingreso .boton {
+    font-size: 19.3333333333px;
+    padding: 10px 30px;
+    margin-top: 10px;
+  }
+}
+#ingreso .boton:hover {
+  background-color: #8842c1;
+  color: white;
+  padding: 15px 55px;
+  transition: all 1s;
+}
+@media screen and (max-width: 768px) {
+  #ingreso .boton:hover {
+    padding: 10px 30px;
   }
 }
 
