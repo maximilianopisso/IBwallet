@@ -1,6 +1,6 @@
 #contactos{
 
-    padding: $separacion_sections 0px $separacion_sections 0px ;
+    padding: $separacion_sections*1.5 0px $separacion_sections 0px ;
     background-color: $color_head_foot;
     width: 100%;
         @media screen and (min-width:0px)and (max-width:510px){
@@ -11,12 +11,8 @@
         font-size: nth($size_fuente,10);
         text-align: center;
         color: white;
-        margin-top: 5rem;
-        padding: 0px 2rem;
-
-        @media screen and (max-width:768px){
-            margin-top: 3rem;
-        }
+        margin-top: 5vh;
+        padding: 0px 10vw
     }
 
     .contactos-container{

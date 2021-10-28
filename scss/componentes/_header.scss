@@ -1,25 +1,29 @@
 
-header{
-    //height: 120px;
+header{  
     background-color: $color_head_foot;
-    width: 100%;
-    order:10 ;
     
-
     nav{
 
-        .navbar-brand{
-        font-family: nth($tipo_fuente,2); 
-        font-size: nth($size_fuente,4);
-        font-weight: 900;
-        padding-left: 2%;
-        color: $color_text_head_foot;
+        .nav-container{
+
+            height: 70px;
+            padding: 0 50px;
         
-            @media only screen and (max-width:1200px){
-                padding-left: 1%;
-                font-size: 2rem;
-            
-            }   
+            @media screen and (max-width:991px){
+                 height: auto;
+                 padding: 0px 30px;       
+                }
+
+        .navbar-brand{
+            font-family: nth($tipo_fuente,2); 
+            font-size: nth($size_fuente,3);
+            font-weight: 900;
+            color: $color_text_head_foot;
+        
+                @media only screen and (max-width:1200px){
+                    font-size: 2rem;
+                
+                }   
         }
         ul{
             li{
@@ -61,7 +65,7 @@ header{
 
                 }
             }
-          
+        } 
     }
 }
 

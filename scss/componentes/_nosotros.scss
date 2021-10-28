@@ -12,17 +12,17 @@ padding-top: $padding_sections;
     h2{
         font-size: nth($size_fuente,3);
         font-weight: 700;
-        padding: 0rem 0rem 5rem;
+        padding-bottom: $separacion_sections;
         color: darken($color_head_foot,20%);
 
         @media only screen and (max-width:991px){
             text-align: center;
+            padding: 7vh 0vh;
         }   
         
         @media screen and (min-width:0px)and (max-width:510px){
             font-size: nth($size_fuente,5);
-            padding: 2rem 0rem;
-            
+            padding: 5vh 0vh;
         }
     }
 
@@ -64,9 +64,16 @@ padding-top: $padding_sections;
 
         .img-nosotros{
             img{
-                height: 100%;
+                max-width: 350px;
+                width: 70%;
                 display: block;
                 margin: 0px auto;
+
+                @media screen and (min-width:0px)and (max-width:510px){
+                    max-width: 280px;
+                    width: 90%;
+                    
+                }
                 
             }
         }

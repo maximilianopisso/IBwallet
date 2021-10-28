@@ -2,7 +2,7 @@
 
 #inicio{
 
-    margin-top: $separacion_sections*1.5;
+    margin-top: $separacion_sections*1;
    padding-top: $padding_sections;
     @media screen and (min-width:0px)and (max-width:510px){
         margin-top: $separacion_sections ;
@@ -17,20 +17,20 @@
             font-size: nth($size_fuente,1);
             font-weight: 700;
             color: darken($color_head_foot,20%);
-            margin: 0rem 0rem 4rem 2rem;
+            margin: 0rem 0rem 5vh 5vw;
 
             
             @media screen and (max-width:767px){
                 font-size: nth($size_fuente,3);
                 text-align: center;
                 margin: 0px;
-                margin-bottom: 5rem;
+               margin-bottom: 10vh; 
                 
             
             }
             @media screen and (min-width:0px)and (max-width:510px){
                 font-size: nth($size_fuente,4);
-                margin-bottom: 2rem;  
+                margin-bottom: 5vh;  
             }   
             
         }
@@ -42,14 +42,14 @@
         .description-container{
             
             h2{
-                font-size: nth($size_fuente,3);
+                font-size: nth($size_fuente,4);
                 font-weight: 600;
                 padding: 5px 0rem;
                 color: lighten($color1,5%);
                 
                 
                 @media screen and (max-width:991px){
-                    font-size: nth($size_fuente,4);
+                    font-size: nth($size_fuente,5);
                 }
                 
                 @media screen and (max-width:767px){
@@ -71,7 +71,8 @@
             img{
                 display: block;
                 margin: 0px auto;
-                max-width: 80%;
+                max-width: 300px;
+                width: 80%;
             }
         }
     }
