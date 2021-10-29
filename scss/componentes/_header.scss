@@ -1,70 +1,71 @@
 
 header{  
     background-color: $color_principal;
-    
+
+     padding: 0vh 4vw;
+
+        @media screen and (max-width:991px){
+          
+          padding: 0px 2vw;       
+        }
+
     nav{
 
         .nav-container{
 
-            height: 55px;
-            padding: 0 50px;
-        
-            @media screen and (max-width:991px){
-                 height: auto;
-                 padding: 0px 30px;       
-                }
+           
 
-        .navbar-brand{
-            font-family: nth($tipo_fuente,2); 
-            font-size: nth($size_fuente,3);
-            font-weight: 700;
-            color: $color_text_head_foot;
-        
-                // @media only screen and (max-width:1200px){
-                //     font-size: nth($size_fuente,4);
-                
-                // }   
-        }
-        ul{
-            li{
-                color:$color_principal !important;
-                font-weight: bolder;
-                padding: 10px px!important;
-                                
-                a{
-                font-family: nth($tipo_fuente,2);  
+            .navbar-brand{
+                font-family: nth($tipo_fuente,2); 
+                font-size: nth($size_fuente,3);
                 font-weight: 700;
-                color: $color_text_head_foot !important;
-                font-size: 1.5rem;
-                padding: 10px 10px!important;
-                margin: 0 10px;
-
-                    &:hover{
-                        background-color:lighten($color_principal,10%);
-                        border-radius: 10px;
-                        transition: all 1.3s;
-                    }
+                color: $color_text_head_foot;
+            
+                    // @media only screen and (max-width:1200px){
+                    //     font-size: nth($size_fuente,4);
                     
-                    @media screen and (max-width:991px){
-                        
-                        
-                        &:hover{
-                            background-color:($color_principal);
-                        }
-
-                       
-                    }
-                    @media screen and (max-width:1200px){
-                        font-weight: 700;
-                        font-size: 1.3rem;
-                        padding: 5px 10px!important;
-                        margin: 0 5px; 
-                    
-                    }   
-                }
-
-                }
+                    // }   
             }
+            ul{
+                li{
+                    color:$color_principal !important;
+                    font-weight: bolder;
+                    padding: 10px px!important;
+                                    
+                    a{
+                    font-family: nth($tipo_fuente,2);  
+                    font-weight: 700;
+                    color: $color_text_head_foot !important;
+                    font-size: 1.5rem;
+                    padding: 10px 10px!important;
+                    margin: 0 10px;
+
+                        &:hover{
+                            background-color:lighten($color_principal,10%);
+                            border-radius: 10px;
+                            transition: all 1.3s;
+                        }
+                        
+                        @media screen and (max-width:991px){
+                            
+                            
+                            &:hover{
+                                background-color:($color_principal);
+                            }
+
+                        
+                        }
+                        @media screen and (max-width:1200px){
+                            font-weight: 700;
+                            font-size: 1.3rem;
+                            padding: 5px 10px!important;
+                            margin: 0 5px; 
+                        
+                        }   
+                    }
+
+                    }
+                }
         } 
     }
 }

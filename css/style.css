@@ -40,15 +40,11 @@ body * {
 
 header {
   background-color: #8842c1;
-}
-header nav .nav-container {
-  height: 55px;
-  padding: 0 50px;
+  padding: 0vh 4vw;
 }
 @media screen and (max-width: 991px) {
-  header nav .nav-container {
-    height: auto;
-    padding: 0px 30px;
+  header {
+    padding: 0px 2vw;
   }
 }
 header nav .nav-container .navbar-brand {
