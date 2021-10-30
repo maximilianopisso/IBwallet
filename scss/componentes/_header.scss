@@ -1,11 +1,9 @@
 
 header{  
     background-color: $color_principal;
-
-     padding: 0vh 4vw;
+    padding: 0vh 4vw;
 
         @media screen and (max-width:991px){
-          
           padding: 0px 2vw;       
         }
 
@@ -13,11 +11,9 @@ header{
 
         .nav-container{
 
-           
-
             .navbar-brand{
                 font-family: nth($tipo_fuente,2); 
-                font-size: nth($size_fuente,3);
+                font-size: nth($size_fuente,4);
                 font-weight: 700;
                 color: $color_text_head_foot; 
             }

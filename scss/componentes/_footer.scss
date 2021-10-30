@@ -8,10 +8,10 @@
         }
 
     .leyenda{
-        font-size: nth($size_fuente,8);
+        font-size: nth($size_fuente,9);
         text-align: center;
         color: white;
-        margin-top: 5vh;
+        margin-top: 10vh;
         padding: 0px 10vw;
 
         @media screen and (max-width:768px){
@@ -38,7 +38,7 @@
                 display: inline-block;
                 margin: 10px 20px;
                 padding: 10px 20px;
-                font-size: nth($size_fuente,3);
+                font-size: nth($size_fuente,4);
                 text-decoration: none;
                 transition: color 1s;
                 
