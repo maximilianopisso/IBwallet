@@ -29,6 +29,7 @@
 
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
   scroll-behavior: smooth;
   background-image: linear-gradient(180deg, white 10%, #ededed 120%);
   font-size: "Raleway", sans-serif, "Roboto", sans-serif 2;
@@ -467,6 +468,12 @@ header nav .nav-container ul li a:hover {
   margin-top: 5vh;
   padding: 0px 10vw;
 }
+@media screen and (max-width: 768px) {
+  #contactos .leyenda {
+    font-size: 15px;
+    margin-top: 7vh;
+  }
+}
 #contactos .contactos-container {
   display: flex;
 }
@@ -488,7 +495,7 @@ header nav .nav-container ul li a:hover {
 }
 @media screen and (max-width: 768px) {
   #contactos .contactos-container .redessociales-container .fa {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 5px 10px;
   }
 }
@@ -518,7 +525,7 @@ header nav .nav-container ul li a:hover {
 }
 @media screen and (max-width: 768px) {
   #contactos .contactos-container .contactos-container address p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
