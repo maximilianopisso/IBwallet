@@ -5,7 +5,7 @@
     @include separador_secciones($margin_sections,$padding_sections);
     
 
-    @media screen and (min-width:0px)and (max-width:510px){
+    @media screen and (min-width:0px)and (max-width:576px){
 
         @include separador_secciones($margin_sections,$padding_sections)
     }
@@ -22,7 +22,7 @@
                 font-size: nth($size_fuente,3);
                 text-align: center;
             }
-            @media screen and (min-width:0px)and (max-width:510px){
+            @media screen and (min-width:0px)and (max-width:576px){
                 font-size: nth($size_fuente,4);
                 margin-bottom: 5vh;  
             }   

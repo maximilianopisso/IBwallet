@@ -6,7 +6,7 @@
         @include separador_secciones($margin_sections,$padding_sections);
     }
 
-    @media screen and (min-width:0px)and (max-width:510px){
+    @media screen and (min-width:0px)and (max-width:576px){
         @include separador_secciones($margin_sections/5,$padding_sections/2);
     }
     
@@ -20,7 +20,7 @@
             text-align: center;
         }   
         
-        @media screen and (min-width:0px)and (max-width:510px){
+        @media screen and (min-width:0px)and (max-width:576px){
             font-size: nth($size_fuente,5);
             padding-bottom: 5vh;
             
@@ -45,7 +45,7 @@
                 max-width: 400px;
                 margin-bottom: 3.5rem;
             } 
-            @media screen and (min-width:0px)and (max-width:510px){
+            @media screen and (min-width:0px)and (max-width:576px){
                 max-width: 300px;  
             }             
 
@@ -78,7 +78,7 @@
                 font-size: 22px;
                 font-weight: 500;   
 
-                @media screen and (min-width:0px)and (max-width:510px){
+                @media screen and (min-width:0px)and (max-width:576px){
                     font-size: nth($size_fuente,10);
                     margin-bottom: 2rem;  
                 } 

@@ -5,7 +5,7 @@
 
     margin-top: $margin_sections;
     padding-top: $padding_sections*0.5;
-        @media screen and (min-width:0px)and (max-width:510px){
+        @media screen and (min-width:0px)and (max-width:576px){
             margin-top: $margin_sections ;
             padding-top: $padding_sections/2;
         }

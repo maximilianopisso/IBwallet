@@ -8,7 +8,7 @@
         @include separador_secciones($margin_sections,$padding_sections/2);
     }
 
-    @media screen and (min-width:0px)and (max-width:510px){
+    @media screen and (min-width:0px)and (max-width:576px){
         @include separador_secciones($margin_sections/5,$padding_sections);
     }
 
@@ -20,7 +20,7 @@
             padding: 7vh 0vh;
         }   
         
-        @media screen and (min-width:0px)and (max-width:510px){
+        @media screen and (min-width:0px)and (max-width:576px){
             font-size: nth($size_fuente,5);
             padding: 5vh 0vh;
         }
@@ -52,7 +52,7 @@
                     text-align: center;
                 }   
                
-                @media screen and (min-width:0px)and (max-width:510px){
+                @media screen and (min-width:0px)and (max-width:576px){
                     font-size: nth($size_fuente,10);
                     text-align: center;
                 }
@@ -68,7 +68,7 @@
                 display: block;
                 margin: 0px auto;
 
-                @media screen and (min-width:0px)and (max-width:510px){
+                @media screen and (min-width:0px)and (max-width:576px){
                     max-width: 280px;
                     width: 90%;
                     

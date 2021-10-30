@@ -19,13 +19,9 @@ header{
                 font-family: nth($tipo_fuente,2); 
                 font-size: nth($size_fuente,3);
                 font-weight: 700;
-                color: $color_text_head_foot;
-            
-                    // @media only screen and (max-width:1200px){
-                    //     font-size: nth($size_fuente,4);
-                    
-                    // }   
+                color: $color_text_head_foot; 
             }
+            
             ul{
                 li{
                     color:$color_principal !important;

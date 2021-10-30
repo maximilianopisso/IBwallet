@@ -89,7 +89,7 @@ header nav .nav-container ul li a:hover {
   margin-top: 10vh;
   padding-top: 20vh;
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #inicio {
     margin-top: 10vh;
     padding-top: 20vh;
@@ -107,7 +107,7 @@ header nav .nav-container ul li a:hover {
     text-align: center;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #inicio h1 {
     font-size: 1.8rem;
     margin-bottom: 5vh;
@@ -160,7 +160,7 @@ header nav .nav-container ul li a:hover {
     padding-top: 10vh;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #nosotros {
     margin-top: 2vh;
     padding-top: 20vh;
@@ -178,7 +178,7 @@ header nav .nav-container ul li a:hover {
     padding: 7vh 0vh;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #nosotros h2 {
     font-size: 1.5rem;
     padding: 5vh 0vh;
@@ -211,7 +211,7 @@ header nav .nav-container ul li a:hover {
     text-align: center;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #nosotros .nosotros-container .text-container p {
     font-size: 15px;
     text-align: center;
@@ -223,7 +223,7 @@ header nav .nav-container ul li a:hover {
   display: block;
   margin: 0px auto;
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #nosotros .nosotros-container .img-nosotros img {
     max-width: 280px;
     width: 90%;
@@ -240,7 +240,7 @@ header nav .nav-container ul li a:hover {
     padding-top: 20vh;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #servicios {
     margin-top: 2vh;
     padding-top: 10vh;
@@ -257,7 +257,7 @@ header nav .nav-container ul li a:hover {
     text-align: center;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #servicios h2 {
     font-size: 1.5rem;
     padding-bottom: 5vh;
@@ -280,7 +280,7 @@ header nav .nav-container ul li a:hover {
     margin-bottom: 3.5rem;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #servicios .servicios-container .item-servicios {
     max-width: 300px;
   }
@@ -310,7 +310,7 @@ header nav .nav-container ul li a:hover {
   font-size: 22px;
   font-weight: 500;
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #servicios .servicios-container .item-servicios .card-body .card-text {
     font-size: 15px;
     margin-bottom: 2rem;
@@ -331,50 +331,72 @@ header nav .nav-container ul li a:hover {
     padding-top: 20vh;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #ingreso {
     margin-top: 2vh;
     padding-top: 20vh;
   }
 }
-#ingreso .carrusel-container .carousel-inner .carousel-item {
-  text-align: center;
-}
-#ingreso .carrusel-container .carousel-inner .carousel-item .carousel-img img {
-  max-height: 200px;
-  height: 70%;
+#ingreso .carrusel-container .carousel-inner .carousel-item .item-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5vh;
 }
 @media screen and (max-width: 768px) {
-  #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-img img {
-    max-height: 280px;
-    height: 60%;
+  #ingreso .carrusel-container .carousel-inner .carousel-item .item-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    height: 400px;
+  }
+}
+#ingreso .carrusel-container .carousel-inner .carousel-item .item-container img {
+  display: block;
+  width: 40%;
+  max-width: 400px;
+}
+@media screen and (max-width: 768px) {
+  #ingreso .carrusel-container .carousel-inner .carousel-item .item-container img {
+    max-width: 200px;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text {
-  margin-bottom: 30px;
+  margin: auto 0px;
+  width: 50%;
+  padding: 0px 2vw;
+}
+@media screen and (max-width: 768px) {
+  #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text {
+    width: 95%;
+    padding: 0px 2vw;
+    margin: 0 auto;
+  }
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text h2 {
-  font-size: 1.8rem;
+  text-align: center;
+  font-size: 2.5rem;
   margin: 2vh 0vh;
   font-weight: 700;
   color: #381a50;
-  text-align: center;
 }
 @media screen and (max-width: 768px) {
   #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text h2 {
-    font-size: 1.2rem;
+    font-size: 22px;
   }
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text p {
+  text-align: center;
   font-weight: 500;
   color: #410b35;
-  font-size: 20px;
-  width: 70%;
-  margin: 0px auto;
+  font-size: 22px;
 }
 @media screen and (max-width: 768px) {
   #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text p {
-    font-size: 13.3333333333px;
+    font-size: 18px;
+    margin: 0 auto;
   }
 }
 #login {
@@ -385,7 +407,7 @@ header nav .nav-container ul li a:hover {
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #login {
     margin-top: 10vh;
     padding-top: 10vh;
@@ -433,7 +455,7 @@ header nav .nav-container ul li a:hover {
   background-color: #8842c1;
   width: 100%;
 }
-@media screen and (min-width: 0px) and (max-width: 510px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   #contactos {
     padding-top: 15vh;
   }
