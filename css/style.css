@@ -439,7 +439,7 @@ header nav .nav-container ul li a:hover {
   }
 }
 #contactos .leyenda {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   color: white;
   margin-top: 5vh;
@@ -460,13 +460,13 @@ header nav .nav-container ul li a:hover {
   display: inline-block;
   margin: 10px 20px;
   padding: 10px 20px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   text-decoration: none;
   transition: color 1s;
 }
 @media screen and (max-width: 768px) {
   #contactos .contactos-container .redessociales-container .fa {
-    font-size: 18px;
+    font-size: 20px;
     margin: 5px 10px;
   }
 }
@@ -474,7 +474,7 @@ header nav .nav-container ul li a:hover {
   background-color: #a89ebb;
   color: white;
   border-radius: 20px;
-  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 #contactos .contactos-container .redessociales-container a {
   color: white;
@@ -492,7 +492,7 @@ header nav .nav-container ul li a:hover {
 #contactos .contactos-container .contactos-container address p {
   color: white;
   font-size: 1.5rem;
-  padding-top: 11px;
+  padding-top: 2vh;
 }
 @media screen and (max-width: 768px) {
   #contactos .contactos-container .contactos-container address p {
