@@ -69,7 +69,7 @@ header nav .nav-container ul li a {
 header nav .nav-container ul li a:hover {
   background-color: #a068ce;
   border-radius: 10px;
-  transition: all 1s;
+  -webkit-transition: all 1s;
 }
 @media screen and (max-width: 991px) {
   header nav .nav-container ul li a:hover {
@@ -89,12 +89,6 @@ header nav .nav-container ul li a:hover {
 #inicio {
   margin-top: 10vh;
   padding-top: 20vh;
-}
-@media screen and (min-width: 0px) and (max-width: 576px) {
-  #inicio {
-    margin-top: 10vh;
-    padding-top: 20vh;
-  }
 }
 #inicio h1 {
   font-size: 3rem;
@@ -155,10 +149,10 @@ header nav .nav-container ul li a:hover {
   margin-top: 10vh;
   padding-top: 20vh;
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #nosotros {
     margin-top: 10vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -233,10 +227,10 @@ header nav .nav-container ul li a:hover {
   margin-top: 10vh;
   padding-top: 20vh;
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #servicios {
     margin-top: 10vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -329,10 +323,10 @@ header nav .nav-container ul li a:hover {
   padding-top: 20vh;
   background-image: linear-gradient(180deg, #f4f4f4 30%, #9455c7 100%);
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #ingreso {
     margin-top: 10vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -412,10 +406,10 @@ header nav .nav-container ul li a:hover {
   align-items: center;
   justify-content: center;
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #login {
     margin-top: 10vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -479,8 +473,15 @@ header nav .nav-container ul li a:hover {
   width: 100%;
   padding: 20vh 0px 10vh 0px;
 }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #contactos {
+    margin-top: 0vh;
+    padding-top: 10vh;
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 576px) {
   #contactos {
+    margin-top: 0vh;
     padding-top: 20vh;
   }
 }

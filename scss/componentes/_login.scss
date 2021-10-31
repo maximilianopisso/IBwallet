@@ -7,9 +7,9 @@
     @include separador_secciones(0px,$padding_sections);
     padding-bottom:$padding_sections/2 ;
    
-        @media screen and (max-width:991px){ 
-            @include separador_secciones($margin_sections,$padding_sections);
-        }
+    @media screen and (min-width:768px) and (max-width:991px){ 
+        @include separador_secciones($margin_sections,$padding_sections/2);
+    } 
 
         @media screen and (min-width:0px)and (max-width:576px){
             @include separador_secciones($margin_sections/5,$padding_sections);
