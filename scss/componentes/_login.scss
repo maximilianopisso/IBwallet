@@ -3,12 +3,19 @@
 
 #login{
 
-    margin-top: $margin_sections;
-    padding-top: $padding_sections*0.5;
-        @media screen and (min-width:0px)and (max-width:576px){
-            margin-top: $margin_sections ;
-            padding-top: $padding_sections/2;
+ 
+    @include separador_secciones(0px,$padding_sections);
+    padding-bottom:$padding_sections/2 ;
+   
+        @media screen and (max-width:991px){ 
+            @include separador_secciones($margin_sections,$padding_sections);
         }
+
+        @media screen and (min-width:0px)and (max-width:576px){
+            @include separador_secciones($margin_sections/5,$padding_sections);
+        }
+
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +23,7 @@
 
     img{
        
-        max-width: 200px;
+        max-width: 150px;
         width: 80%;
        }
 
@@ -40,28 +47,42 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 5vh 0vw;
 
-        form{   
-            .form-item{
-                display: block;
-                margin: 2vh auto 0vh auto;
-
-                label{
-                    font-size: nth($size_fuente_px,4);
-                    font-weight: 500;
-                    
+        .form-container{
+            width: 75%;
+                @media screen and (min-width:0px)and (max-width:576px){
+                    width: 85%;
                 }
-                input{
-                border: 2px solid $color_principal ;
-                width: 100%;
-                  }
 
-             }
+
+            form{   
+                .form-item{
+                    display: block;
+                    margin: 2vh auto 0vh auto;
+
+                    label{
+                        font-size: nth($size_fuente_px,3);
+                        font-weight: 500;
+                        
+                    }
+                    input{
+                    border: 2px solid $color_principal ;
+                    width: 100%;
+                    }
+
+                }
+            }
+
+           
         }
-
-        .boton{
-           @extend %botones;
-           margin-top: 7vh;
+        .boton-container{
+            display: flex;
+            justify-content: center;
+            .boton{
+                @extend %botones;
+                margin-top: 7vh;
+                }
         }
     }
 

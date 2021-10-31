@@ -13,7 +13,7 @@
         @include separador_secciones($margin_sections/5,$padding_sections);
     }
         
-        //background-color: $color_principal;
+    
        background-image: linear-gradient(180deg,#f4f4f4 30%,lighten($color_principal, 5%) 100%); 
       
     .carrusel-container{

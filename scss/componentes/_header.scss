@@ -28,7 +28,7 @@ header{
                     font-family: nth($tipo_fuente,2);  
                     font-weight: 700;
                     color: $color_text_head_foot !important;
-                    font-size: nth($size_fuente,5);
+                    font-size: nth($size_fuente,6);
                     padding: 10px 10px!important;
                     margin: 0 10px;
 
@@ -43,6 +43,7 @@ header{
                             
                             &:hover{
                                 background-color:($color_principal);
+                                font-weight: 800;
                             }
 
                         

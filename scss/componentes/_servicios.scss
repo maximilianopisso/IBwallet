@@ -11,19 +11,16 @@
     }
     
     h2{
-        font-size: nth($size_fuente,3);
-        font-weight: 700;
-        padding-bottom: 7vh; 
-        color: darken($color_principal,20%);
+        @include titulos_seccion(7vh,nth($size_fuente,3));
 
         @media only screen and (max-width:991px){
             text-align: center;
+            padding: 7vh 0vh;
         }   
         
         @media screen and (min-width:0px)and (max-width:576px){
             font-size: nth($size_fuente,5);
-            padding-bottom: 5vh;
-            
+            padding: 5vh 0vh;
         }
     }
 
