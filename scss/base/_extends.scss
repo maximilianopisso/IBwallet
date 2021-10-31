@@ -10,7 +10,7 @@ font-size: nth($size_fuente,6);
         text-decoration: none; 
 
             @media screen and (max-width:768px){
-                font-size: nth($size_fuente,8);
+                font-size: nth($size_fuente_px,3);
                 padding: 10px 30px;
                
             }

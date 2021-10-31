@@ -8,14 +8,14 @@
         }
 
     .leyenda{
-        font-size: nth($size_fuente,9);
+        font-size: nth($size_fuente_px,4);
         text-align: center;
         color: white;
         margin-top: 10vh;
         padding: 0px 10vw;
 
         @media screen and (max-width:768px){
-            font-size: nth($size_fuente,10);
+            font-size: nth($size_fuente_px,5);
             margin-top: 7vh;
             
         }   
@@ -40,7 +40,7 @@
                 padding: 10px 20px;
                 font-size: nth($size_fuente,4);
                 text-decoration: none;
-                transition: color 1s;
+
                 
                     @media screen and (max-width:768px){
                         font-size: nth($size_fuente,5);
@@ -51,7 +51,7 @@
                     background-color: #a89ebb;
                     color: white;
                     border-radius: 20px;
-                    -webkit-transition: all 0.5s ;
+                    -webkit-transition: all 1.5s ;
                     
                 }
             }
@@ -65,7 +65,7 @@
             text-align: center;
                 
                 @media screen and (max-width:768px){
-                    font-size: nth($size_fuente,8);
+                    font-size: nth($size_fuente_px,3);
                     padding-top: 30px !important;
                 }
               
@@ -76,7 +76,7 @@
                     padding-top: 2vh;
 
                     @media screen and (max-width:768px){
-                       font-size: nth($size_fuente,7);
+                       font-size: nth($size_fuente_px,2);
 
                     }
                 }

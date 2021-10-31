@@ -28,14 +28,14 @@ header{
                     font-family: nth($tipo_fuente,2);  
                     font-weight: 700;
                     color: $color_text_head_foot !important;
-                    font-size: 1.5rem;
+                    font-size: nth($size_fuente,5);
                     padding: 10px 10px!important;
                     margin: 0 10px;
 
                         &:hover{
                             background-color:lighten($color_principal,10%);
                             border-radius: 10px;
-                            transition: all 1.3s;
+                            transition: all 1s
                         }
                         
                         @media screen and (max-width:991px){
@@ -49,7 +49,7 @@ header{
                         }
                         @media screen and (max-width:1200px){
                             font-weight: 700;
-                            font-size: 1.3rem;
+                            font-size: nth($size_fuente,6);
                             padding: 5px 10px!important;
                             margin: 0 5px; 
                         
