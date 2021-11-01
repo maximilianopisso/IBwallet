@@ -30,7 +30,7 @@
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-image: linear-gradient(180deg, lighten 10%, #ededed 120%);
+  background-image: linear-gradient(180deg, white 20%, #e6e6e6 120%);
   font-size: "Raleway", sans-serif, "Roboto", sans-serif 2;
 }
 body * {
