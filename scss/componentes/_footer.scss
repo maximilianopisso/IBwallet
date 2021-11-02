@@ -46,7 +46,7 @@
                 font-size: nth($size_fuente,4);
                 text-decoration: none;
      
-                    @media screen and (max-width:768px){
+                    @media screen and (max-width:767px){
                         font-size: nth($size_fuente,5);
                         margin: 5px 10px;
                     }
@@ -68,7 +68,7 @@
             display: block;
             text-align: center;
                 
-                @media screen and (max-width:768px){
+                @media screen and (max-width:767px){
                     font-size: nth($size_fuente_px,3);
                     padding-top: 30px !important;
                 }
@@ -79,7 +79,7 @@
                     font-size: nth($size_fuente,5);
                     padding-top: 2vh;
 
-                    @media screen and (max-width:768px){
+                    @media screen and (max-width:767px){
                        font-size: nth($size_fuente_px,2);
 
                     }

@@ -36,7 +36,7 @@
         margin: 2vh 0vh; 
         text-align: center;
 
-        @media screen and (min-width:0px)and (max-width:768px){
+        @media screen and (min-width:0px)and (max-width:767px){
             font-size: nth($size_fuente,5);
         }
     }
@@ -52,7 +52,7 @@
         .form-container{
             width: 75%;
             min-width: 450px;
-            
+
                 @media screen and (min-width:0px)and (max-width:576px){
                     width: 85%;
                     min-width: 270px;
@@ -76,19 +76,15 @@
                 }
             }
 
-           
         }
         .boton-container{
             display: flex;
             justify-content: center;
             margin-top: 5vh;
-            
-
+        
             .boton{
-                @extend %botones;
-           
-            
-                }
+                @extend %botones; 
+            }
         }
     }
 
