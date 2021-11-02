@@ -51,10 +51,12 @@
 
         .form-container{
             width: 75%;
+            min-width: 450px;
+            
                 @media screen and (min-width:0px)and (max-width:576px){
                     width: 85%;
+                    min-width: 270px;
                 }
-
 
             form{   
                 .form-item{
@@ -79,9 +81,13 @@
         .boton-container{
             display: flex;
             justify-content: center;
+            margin-top: 5vh;
+            
+
             .boton{
                 @extend %botones;
-                margin-top: 7vh;
+           
+            
                 }
         }
     }

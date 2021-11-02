@@ -443,10 +443,12 @@ header nav .nav-container ul li a:hover {
 }
 #login .conteiner-login .form-container {
   width: 75%;
+  min-width: 450px;
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
   #login .conteiner-login .form-container {
     width: 85%;
+    min-width: 270px;
   }
 }
 #login .conteiner-login .form-container form .form-item {
@@ -464,11 +466,8 @@ header nav .nav-container ul li a:hover {
 #login .conteiner-login .boton-container {
   display: flex;
   justify-content: center;
+  margin-top: 5vh;
 }
-#login .conteiner-login .boton-container .boton {
-  margin-top: 7vh;
-}
-
 #contactos {
   background-color: #8842c1;
   width: 100%;
