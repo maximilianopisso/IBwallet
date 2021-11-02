@@ -5,10 +5,10 @@
     @include separador_secciones($margin_sections,$padding_sections);
 
     @media screen and (min-width:768px) and (max-width:991px){ 
-        @include separador_secciones($margin_sections*1.5,$padding_sections/3);
+        @include separador_secciones($margin_sections*1.5,$padding_sections/2);
     } 
 
-    @media screen and (min-width:577px)and (max-width:767px){
+    @media screen and (min-width:577px)and (max-width:768px){
         @include separador_secciones($margin_sections*2,$padding_sections/2);
     }
 

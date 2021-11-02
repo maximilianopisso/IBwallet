@@ -13,7 +13,7 @@
             margin: 0vh 0ch 7vh 5vw;
 
             
-            @media screen and (max-width:767px){
+            @media screen and (max-width:768px){
                 font-size: nth($size_fuente,3);
                 text-align: center;
             }
@@ -42,7 +42,7 @@
                 @media screen and (max-width:991px){
                     font-size: nth($size_fuente,5);
                 }       
-                @media screen and (max-width:767px){
+                @media screen and (max-width:768px){
                     text-align: center;   
                 }
 
