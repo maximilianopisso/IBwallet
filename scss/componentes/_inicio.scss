@@ -34,6 +34,7 @@
             justify-content: center;
 
             h2{
+                font-family: nth($tipo_fuente,1),nth($tipo_fuente,2);
                 font-size: nth($size_fuente,4);
                 font-weight: 600;
                 padding-bottom: 2vh;

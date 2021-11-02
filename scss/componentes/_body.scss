@@ -9,5 +9,5 @@ body{
         overflow-x: hidden;
         scroll-behavior: smooth;
         background-image: linear-gradient(180deg,white 20%,darken(white,10%) 120%); 
-        font-size: $tipo_fuente(2);
+        font-family: nth($tipo_fuente,2)
 }
