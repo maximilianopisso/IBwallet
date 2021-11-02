@@ -23,6 +23,10 @@ header{
                     color:$color_principal !important;
                     font-weight: bolder;
                     padding: 10px 0px!important;
+
+                    @media screen and (max-width:991px){
+                        padding: 0px 0px!important;
+                    }
                                     
                     a{
                     font-family: nth($tipo_fuente,2);  
@@ -56,7 +60,6 @@ header{
                         
                         }   
                     }
-
                 }
             }
         } 

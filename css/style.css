@@ -58,6 +58,11 @@ header nav .nav-container ul li {
   font-weight: bolder;
   padding: 10px 0px !important;
 }
+@media screen and (max-width: 991px) {
+  header nav .nav-container ul li {
+    padding: 0px 0px !important;
+  }
+}
 header nav .nav-container ul li a {
   font-family: sans-serif;
   font-weight: 700;
@@ -90,6 +95,12 @@ header nav .nav-container ul li a:hover {
 #inicio {
   margin-top: 10vh;
   padding-top: 20vh;
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  #inicio {
+    margin-top: 10vh;
+    padding-top: 10vh;
+  }
 }
 #inicio h1 {
   font-size: 3rem;
@@ -165,7 +176,7 @@ header nav .nav-container ul li a:hover {
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
   #nosotros {
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding-top: 10vh;
   }
 }
@@ -249,7 +260,7 @@ header nav .nav-container ul li a:hover {
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
   #servicios {
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding-top: 10vh;
   }
 }
