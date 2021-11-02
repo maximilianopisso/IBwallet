@@ -197,7 +197,7 @@ header nav .nav-container ul li a:hover {
   color: #404040;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: left;
   margin-bottom: 5vh;
 }
@@ -320,8 +320,9 @@ header nav .nav-container ul li a:hover {
 }
 #servicios .servicios-container .item-servicios .card-body .card-text {
   color: #404040;
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
   #servicios .servicios-container .item-servicios .card-body .card-text {
@@ -419,9 +420,10 @@ header nav .nav-container ul li a:hover {
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text p {
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   color: #410b35;
   font-size: 22px;
+  font-family: "Raleway", sans-serif;
 }
 @media screen and (max-width: 768px) {
   #ingreso .carrusel-container .carousel-inner .carousel-item .carousel-text p {

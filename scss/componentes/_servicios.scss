@@ -80,9 +80,10 @@
             //height: 150px;
             
             .card-text{
-                color: $color_text_normal;;
+                color: $color_text_normal;
+                font-family: nth($tipo_fuente,1),nth($tipo_fuente,2);
                 font-size: nth($size_fuente_px,1);
-                font-weight: 500;   
+                font-weight: 600;   
 
                 @media screen and (min-width:0px)and (max-width:576px){
                     font-size: nth($size_fuente_px,5);
