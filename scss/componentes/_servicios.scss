@@ -11,7 +11,7 @@
     }
 
     @media screen and (min-width:0px)and (max-width:576px){
-        @include separador_secciones($margin_sections,$padding_sections/2.2);
+        @include separador_secciones($margin_sections,$padding_sections/2);
     }
     
     h2{
