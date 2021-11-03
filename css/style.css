@@ -363,8 +363,8 @@ header nav .nav-container ul li a:hover {
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
   #ingreso {
-    margin-top: 2vh;
-    padding-top: 20vh;
+    margin-top: 1vh;
+    padding-top: 13.3333333333vh;
   }
 }
 #ingreso .carrusel-container .carousel-inner .carousel-item .item-container {
