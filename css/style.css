@@ -19,6 +19,9 @@
   background-color: #8842c1;
   color: white;
   padding: 10px 40px;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
   transition: all 1s;
 }
 @media screen and (max-width: 768px) {
@@ -40,7 +43,7 @@ body * {
 
 header {
   background-color: #8842c1;
-  padding: 0vh 4vw;
+  padding: 0px 4vw;
 }
 @media screen and (max-width: 991px) {
   header {
@@ -75,12 +78,18 @@ header nav .nav-container ul li a:hover {
   background-color: #a068ce;
   border-radius: 10px;
   -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
 }
 @media screen and (max-width: 991px) {
   header nav .nav-container ul li a:hover {
     background-color: #8842c1;
     font-weight: 800;
-    -webkit-transition: all 0s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -319,6 +328,9 @@ header nav .nav-container ul li a:hover {
 #servicios .servicios-container .item-servicios .card:hover {
   box-shadow: rgba(136, 66, 193, 0.5) 0px 10px 20px;
   -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
 }
 #servicios .servicios-container .item-servicios .card img {
   max-width: 270px;
@@ -576,6 +588,9 @@ header nav .nav-container ul li a:hover {
   color: white;
   border-radius: 20px;
   -webkit-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  transition: all 1.5s;
 }
 #contactos .contactos-container .redessociales-container a {
   color: white;

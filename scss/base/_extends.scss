@@ -19,7 +19,10 @@ font-size: nth($size_fuente,6);
             background-color:#8842c1;;
             color: white;
             padding: 10px 40px;
-            transition: all 1s;
+            -webkit-transition:all 1s;
+            -o-transition:all 1s ;
+            -moz-transition:all 1s;
+            transition:all 1s;
 
             @media screen and (max-width:768px){
                 padding: 10px 30px;     
