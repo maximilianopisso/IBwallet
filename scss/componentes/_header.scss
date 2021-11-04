@@ -1,19 +1,19 @@
 
 header{  
     background-color: $color_principal;
-    padding: 0vh 4vw;
+    padding: 0px 4vw;
 
         @media screen and (max-width:991px){
           padding: 0px 2vw;       
         }
 
     nav{
-
+        padding: 0px 0px !important;
         .nav-container{
 
             .navbar-brand{
                 font-family: nth($tipo_fuente,2);
-                font-size: nth($size_fuente,4);
+                font-size: nth($size_fuente,3);
                 font-weight: 700;
                 color: $color_text_head_foot; 
             }
@@ -34,12 +34,15 @@ header{
                     color: $color_text_head_foot !important;
                     font-size: nth($size_fuente,6);
                     padding: 10px 10px!important;
-                    margin: 0px 10px;
+                    margin: 0px 15px;
 
                         &:hover{
                             background-color:lighten($color_principal,10%);
                             border-radius: 10px;
                             -webkit-transition:all 1s;
+                            -o-transition:all 1s ;
+                            -moz-transition:all 1s;
+                            transition:all 1s;
                         }
                         
                         @media screen and (max-width:991px){
@@ -47,17 +50,17 @@ header{
                             &:hover{
                                 background-color:($color_principal);
                                 font-weight: 800;
-                                -webkit-transition:all 0s;
+                                -webkit-transition:all 1s;
+                                -o-transition:all 1s ;
+                                -moz-transition:all 1s;
+                                transition:all 1s;
                             }
 
                         
                         }
                         @media screen and (max-width:1200px){
-                            font-weight: 700;
-                            font-size: nth($size_fuente,6);
                             padding: 5px 10px!important;
                             margin: 0px 5px; 
-                        
                         }   
                     }
                 }
